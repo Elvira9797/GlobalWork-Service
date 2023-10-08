@@ -56,14 +56,7 @@
       "salary": "19.5 PLN/hour net.",
       "image": "https://www.currentschoolnews.com/wp-content/uploads/2022/05/assembly.jpg"
     },
-    {
-      "id": "008",
-      "job_title": "Beer production",
-      "city": "Rakszawa, Jędrzejów",
-      "position": "laboratory assistants",
-      "salary": "25 PLN/hour net.",
-      "image": "https://www.currentschoolnews.com/wp-content/uploads/2022/05/assembly.jpg"
-    },
+
     {
       "id": "009",
       "job_title": "Ice cream production",
