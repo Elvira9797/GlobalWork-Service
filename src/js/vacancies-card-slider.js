@@ -1,15 +1,25 @@
 import card from '../common/card-vacancies.json';
 
+import chemical from '../images/chemical.jpg';
+import chairs from '../images/chairs.jpg';
+import jelly from '../images/jelly.jpg';
+import insulation from '../images/insulation.jpg';
+import forklift from '../images/forklift.jpg';
+import energy_drinks from '../images/energy-drinks.jpg';
+import beer from '../images/beer.jpg';
+import ice_cream from '../images/ice-cream.jpg';
+import pavement from '../images/pavement.jpg';
+
 const imageFiles = [
-  'chemical.jpg',
-  'chairs.jpg',
-  'jelly.jpg',
-  'insulation.jpg',
-  'forklift.jpg',
-  'energy-drinks.jpg',
-  'beer.jpg',
-  'ice-cream.jpg',
-  'pavement.jpg',
+  chemical,
+  chairs,
+  jelly,
+  insulation,
+  forklift,
+  energy_drinks,
+  beer,
+  ice_cream,
+  pavement,
 ];
 
 console.log(imageFiles);
