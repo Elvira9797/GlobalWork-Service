@@ -51,16 +51,16 @@ card.job_listing.forEach((vacancy, index) => {
   vacancyCard.classList.add('swiper-slide');
   vacancyCard.innerHTML = `
             <div class="vacancy-card">
-            <div class="vacancy-img-wrap" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 15%, rgba(252, 176, 69, 0) 50%), url('./images/${imageFiles[index]}');"> <h4 class="vacancy-title">${vacancy.job_title}</h4> </div>
+            <div class="vacancy-img-wrap" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 15%, rgba(252, 176, 69, 0) 50%), url('${imageFiles[index]}');"> <h4 class="vacancy-title">${vacancy.job_title}</h4> </div>
               <div class="vacancy-data-wrap">
                 <p class="vacancy-data-item"><svg class="vacancy-icon" width="25" height="25">
-              <use href="./images/icons.svg#icon-location"></use>
+              <use href="icons.svg#icon-location"></use>
             </svg><b>City: </b>${vacancy.city}</p>
                 <p class="vacancy-data-item"><svg class="vacancy-icon" width="25" height="25">
-              <use href="./images/icons.svg#icon-user"></use>
+              <use href="icons.svg#icon-user"></use>
             </svg><b>Position: </b>${vacancy.position}</p>
                 <p class="vacancy-data-item"><svg class="vacancy-icon" width="25" height="25">
-              <use href="./images/icons.svg#icon-credit-card"></use>
+              <use href="icons.svg#icon-credit-card"></use>
             </svg><b>Salary: </b>${vacancy.salary}</p>
               </div>
               <button type="button" class="vacancies-btn btn">More info</button>
