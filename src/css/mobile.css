@@ -21,7 +21,8 @@
 
 @media screen and (min-width: 480px) {
   .hero-wrap {
-    padding: 210px 30px;
+    background-position: center;
+    padding: 175px 10px 115px 40px;
   }
 
   .container {
@@ -210,6 +211,9 @@
     height: 40px;
     background-color: transparent;
   }
+  .header-logo {
+    margin-left: -20px;
+  }
 
   /* --------------HERO---------------- */
 
@@ -217,9 +221,13 @@
     fill: var(--first-btn-color);
   }
 
+  .hero-pre-title {
+    display: none;
+  }
+
   /* -----------------ABOUT------------- */
 
-  .about-list {
+  .about-img {
     display: none;
   }
 

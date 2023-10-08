@@ -18,13 +18,10 @@
   }
   /* -----------------ABOUT------------- */
 
-  .about-item img {
+  .about-img {
+    margin-right: 30px;
     width: 330px;
-    height: 235px;
-  }
-
-  .about-item:first-child {
-    margin-bottom: 30px;
+    object-fit: cover;
   }
 
   /* ----------------ONLINE------------- */
@@ -38,7 +35,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 720px;
-    padding-left: 15px;
+    padding-left: 0;
     padding-right: 15px;
   }
 
@@ -136,8 +133,7 @@
     display: flex;
     align-items: end;
     width: 100px;
-    padding-left: 22px;
-    padding-bottom: 40px;
+    padding-left: 32px;
   }
 
   .hero-list {
@@ -175,7 +171,7 @@
         rgba(25, 28, 38, 0.2)
       ),
       url(../images/hero-bg.jpg);
-    padding: 270px 114px 237px 97px;
+    padding: 200px 84px 35px 50px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -196,34 +192,19 @@
     line-height: 1.67;
   }
 
-  /* -----------------ABOUT------------- */
-
-  .about-text {
-    margin-bottom: 85px;
+  .hero-btn {
+    display: none;
   }
 
-  /* ---------------PRICES-------------------- */
+  /* ---------------VACANCIES-------------------- */
 
-  .prices-title {
+  .vacancies {
+    padding-bottom: 50px;
+  }
+
+  .vacancies-title {
     font-size: 42px;
     line-height: 1.17;
-  }
-
-  .prices-item {
-    gap: 12px;
-  }
-
-  .prices-item-text {
-    font-size: 18px;
-    line-height: 1.67;
-  }
-
-  .prices-list:first-child {
-    padding: 30px 40px 0 40px;
-  }
-
-  .prices-list:last-child {
-    padding: 0 40px 30px 40px;
   }
 
   /* ---------------BENEFITS----------------- */

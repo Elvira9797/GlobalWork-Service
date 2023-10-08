@@ -37,26 +37,9 @@
     width: 1200px;
   }
 
-  /* .hero-wrap {
-    background-image: linear-gradient(
-        rgba(25, 28, 38, 0.2),
-        rgba(25, 28, 38, 0.2)
-      ),
-      url(../images/hero-bg.jpg);
+  .hero-wrap {
     padding: 272px 100px 208px;
   }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-wrap {
-      background-image: linear-gradient(
-          rgba(25, 28, 38, 0.2),
-          rgba(25, 28, 38, 0.2)
-        ),
-        url(../images/hero-bg.jpg);
-    }
-  } */
 
   .hero-title {
     font-size: 72px;
@@ -65,13 +48,9 @@
 
   /* -----------------ABOUT------------- */
 
-  .about-list {
-    display: flex;
-  }
-
-  .about-item img {
-    width: 270px;
-    height: 445px;
+  .about-img {
+    margin-right: 30px;
+    width: 50%;
   }
 
   .about-title {
@@ -87,31 +66,16 @@
     margin-bottom: 42px;
   }
 
-  /* -------------PRICES------------- */
+  /* -------------VACANCIES------------- */
+
+  .vacancies {
+    padding-bottom: 60px;
+  }
 
   .prices-wrap {
     display: flex;
     gap: 30px;
     background-color: none;
-  }
-
-  .prices-list:first-child {
-    background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
-    padding: 30px 20px;
-  }
-
-  .prices-list:last-child {
-    background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
-    padding: 30px 20px;
-  }
-
-  .prices-list {
-    width: calc((100% - 30px) / 2);
-    /* padding: 30px 20px; */
-  }
-
-  .prices-item:last-child {
-    margin-bottom: 0;
   }
 
   /* ----------------BENEFITS----------------- */
