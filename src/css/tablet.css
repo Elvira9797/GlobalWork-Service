@@ -272,16 +272,16 @@
   /* -------------ONLINE/CONTACTS------------------- */
 
   .contacts-wrap {
-    /* background-image: linear-gradient(
+    background-image: linear-gradient(
         rgba(25, 28, 38, 0.7),
         rgba(25, 28, 38, 0.8)
       ),
-      url(../images/background-attach.jpg); */
+      url(../images/contact-us.jpg);
 
     background-size: 100% calc(50% - 16px);
   }
 
-  /* @media (min-device-paxel-ratio: 2),
+  @media (min-device-paxel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contacts-wrap {
@@ -289,9 +289,9 @@
           rgba(25, 28, 38, 0.7),
           rgba(25, 28, 38, 0.8)
         ),
-        url(../images/background-attach.jpg);
+        url(../images/contact-us.jpg);
     }
-  } */
+  }
 
   .online {
     padding-top: 100px;
