@@ -885,7 +885,7 @@ img {
   background-size: 100% calc(50% - 17px);
 }
 
-/* @media (min-device-paxel-ratio: 2),
+@media (min-device-paxel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .contacts-wrap {
@@ -893,9 +893,9 @@ img {
         rgba(25, 28, 38, 0.7),
         rgba(25, 28, 38, 0.8)
       ),
-      url(../images/background-attach.jpg);
+      url(../images/contact-us.jpg);
   }
-} */
+}
 
 .online {
   padding-top: 84px;
@@ -964,6 +964,7 @@ img {
   display: block;
   color: var(--first-btn-color);
   margin: 0;
+  padding: 10px;
 }
 
 /* -------------CONTACTS---------------- */
