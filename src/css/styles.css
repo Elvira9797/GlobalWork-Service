@@ -4,8 +4,8 @@
   --first-btn-color: #ffffff;
   --second-btn-color: #303030;
   --gray-color: #555555;
-  --accent-color: #0c5adb;
-  --light-gray: #9da4bd;
+  --accent-color: #2354a5;
+  --light-gray: #c2c5d2;
   --duration: 250ms;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -293,66 +293,6 @@ img {
   opacity: 0;
 }
 
-/* -----------Checkbox---------- */
-
-/* .user-policy {
-  position: relative;
-}
-
-.user-policy::before {
-  content: "";
-  width: 30px;
-  height: 17px;
-  border: 1px solid #7b7171;
-  border-radius: 50px;
-
-  transition: border var(--duration) var(--timing-function),
-    background-color var(--duration) var(--timing-function);
-}
-
-.user-policy::after {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #7d7b7b;
-  transition: transform var(--duration) var(--timing-function);
-}
-
-.input-checkbox:checked + .user-policy::after {
-  background-color: rgb(131, 168, 131);
-  transform: translate(15px);
-}
-
-.input-checkbox:checked + .user-policy::before {
-  border: none;
-  background-color: rgb(181, 197, 181);
-
-
-} */
-/* --------------Filters-------------- */
-
-/* .filter-list {
-  display: flex;
-  justify-content: center;
-  gap: 14px;
-}
-
-.filter-btn {
-  display: block;
-  background-color: #8e8f99;
-  color: #f7f7f7;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.filter-radio:checked + .filter-btn {
-  background-color: #4d5ae5;
-} */
-
-/* ------------------- */
-
 .modal-form-checkbox-wrap {
   margin-bottom: 24px;
 }
@@ -443,12 +383,12 @@ img {
 .hero-wrap {
   background-color: rgb(51, 51, 50);
   background-image: linear-gradient(
-      rgba(25, 28, 38, 0.4),
-      rgba(25, 28, 38, 0.8)
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.6)
     ),
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   flex-grow: 1;
   padding: 150px 10px 45px 25px;
@@ -459,8 +399,8 @@ img {
   (min-resolution: 2dppx) {
   .hero-wrap {
     background-image: linear-gradient(
-        rgba(25, 28, 38, 0.4),
-        rgba(25, 28, 38, 0.8)
+        rgba(25, 28, 38, 0.2),
+        rgba(25, 28, 38, 0.6)
       ),
       url(../images/hero-bg.jpg);
   }
@@ -472,7 +412,7 @@ img {
 }
 
 .hero-title {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -539,11 +479,105 @@ img {
   color: var(--second-btn-color);
 }
 
+.about-container {
+  flex-direction: column;
+}
+
+.about-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.about-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px 8px 12px 8px;
+  border: 0;
+  min-height: 250px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.about-card {
+  opacity: 0; /* По замовчуванню, елементи будуть приховані */
+  transform: translateY(20px); /* Початкове положення */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-card.fadeIn {
+  opacity: 1; /* Зробіть елемент видимим */
+  transform: translateY(0); /* Зробіть зсув відсутнім */
+}
+
+/* -------------------DOCS--------------------- */
+
+.docs {
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.7),
+      rgba(25, 28, 38, 0.8)
+    ),
+    url('../images/background-attach.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.docs-pre-title {
+  margin-bottom: 20px;
+  color: var(--first-title-color);
+}
+
+.docs-title {
+  color: var(--first-title-color);
+  margin-bottom: 44px;
+}
+
+.docs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.docs-item {
+  width: 100%;
+  background: rgb(163, 161, 181, 0.25);
+  border-radius: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: 0;
+  min-height: 150px;
+  height: auto;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.docs-item-title {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 /* ----------------VACANCIES------------- */
 
 .vacancies {
   background-color: #f7f7f7;
-  max-width: 1600px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -613,6 +647,7 @@ img {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   border-radius: 6px;
+  overflow: hidden;
   transition: box-shadow 300ms ease;
 }
 
@@ -633,6 +668,7 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 16px;
 }
 
 .vacancy-icon {
@@ -761,19 +797,6 @@ img {
   color: var(--second-title-color);
 }
 
-/* .barbers-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-
-.barbers-item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-top: 30px;
-  margin-left: 30px;
-} */
-
 .barbers-item:not(:last-child) {
   margin-bottom: 64px;
 }
@@ -853,19 +876,23 @@ img {
 .contacts-wrap {
   margin: 0 auto;
   background-color: #191c26;
-  background-image: url(../images/mob-contacts-bg.png);
+
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% calc(50% - 17px);
 }
 
-@media (min-device-paxel-ratio: 2),
+/* @media (min-device-paxel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .contacts-wrap {
-    background-image: url(../images/mob-contacts-bg@2x.png);
+    background-image: linear-gradient(
+        rgba(25, 28, 38, 0.7),
+        rgba(25, 28, 38, 0.8)
+      ),
+      url(../images/background-attach.jpg);
   }
-}
+} */
 
 .online {
   padding-top: 84px;

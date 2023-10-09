@@ -38,7 +38,7 @@
   }
 
   .hero-wrap {
-    padding: 272px 100px 208px;
+    padding: 272px 51px 208px;
   }
 
   .hero-title {
@@ -47,11 +47,6 @@
   }
 
   /* -----------------ABOUT------------- */
-
-  .about-img {
-    margin-right: 30px;
-    width: 50%;
-  }
 
   .about-title {
     font-size: 42px;
@@ -64,6 +59,16 @@
 
   .about-text {
     margin-bottom: 42px;
+  }
+
+  .about-card {
+    width: calc((100% - 90px) / 4);
+  }
+
+  /* --------------Docs----------------- */
+
+  .docs-item {
+    width: calc((100% - 90px) / 4);
   }
 
   /* -------------VACANCIES------------- */
@@ -123,18 +128,26 @@
   /* ------------------ONLINE----------------- */
   .contacts-wrap {
     max-width: 1600;
-    background-image: url(../images/desktop-contacts-bg.png);
+    /* background-image: linear-gradient(
+        rgba(25, 28, 38, 0.7),
+        rgba(25, 28, 38, 0.8)
+      ),
+      url(../images/background-attach.jpg); */
     background-position: right;
     background-size: calc(50% - 15px) 100%;
   }
 
-  @media (min-device-paxel-ratio: 2),
+  /* @media (min-device-paxel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contacts-wrap {
-      background-image: url(../images/desktop-contacts-bg@2x.png);
+      background-image: linear-gradient(
+          rgba(25, 28, 38, 0.7),
+          rgba(25, 28, 38, 0.8)
+        ),
+        url(../images/background-attach.jpg);
     }
-  }
+  } */
 
   .contacts-wrap .container {
     display: flex;

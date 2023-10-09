@@ -11,8 +11,6 @@ import ice_cream from '../images/ice-cream.jpg';
 import pavement from '../images/pavement.jpg';
 import icons from '../images/icons.svg';
 
-console.log(icons);
-
 const imageFiles = [
   chemical,
   chairs,
@@ -24,8 +22,6 @@ const imageFiles = [
   ice_cream,
   pavement,
 ];
-
-console.log(imageFiles);
 
 let swiper = new Swiper('.mySwiper', {
   slidesPerView: 1,

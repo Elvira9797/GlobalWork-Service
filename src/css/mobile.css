@@ -30,6 +30,10 @@
     padding-right: 30px;
   }
 
+  .header-container {
+    padding-left: 0;
+  }
+
   /* -----------PRICES---------------- */
 
   .prices-list:first-child {
