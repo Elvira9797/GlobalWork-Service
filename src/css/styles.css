@@ -530,11 +530,9 @@ img {
       rgba(25, 28, 38, 0.7),
       rgba(25, 28, 38, 0.8)
     ),
-    url('../images/background-attach.jpg');
+    url('../images/background.jpg');
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-  -webkit-background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
