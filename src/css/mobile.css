@@ -1,18 +1,4 @@
-@media screen and (min-width: 380px) {
-  .benefits-item {
-    width: 165px;
-  }
-}
-
 @media screen and (max-width: 479px) {
-  .prices-list:first-child {
-    padding: 30px 10px 0 10px;
-  }
-
-  .prices-list:last-child {
-    padding: 0 10px 30px 10px;
-  }
-
   .contacts-title,
   .online-title {
     font-size: 36px;
@@ -33,30 +19,6 @@
   .header-container {
     padding-left: 0;
   }
-
-  /* -----------PRICES---------------- */
-
-  .prices-list:first-child {
-    padding: 30px 20px 0 20px;
-  }
-
-  .prices-list:last-child {
-    padding: 0 20px 30px 20px;
-  }
-
-  /* -----------BENEFITS------------- */
-
-  .benefits-item {
-    width: 194px;
-  }
-
-  /* -------------BARBERS-------------- */
-
-  .barbers-item {
-    width: 418px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -69,22 +31,6 @@
     top: 59px;
     right: 41px;
     height: 16px;
-  }
-
-  /* ---------------BENEFITS---------------- */
-
-  .benefits-list {
-    width: 418px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  /* ------------GALLERY-------------- */
-
-  .gallery-item {
-    width: 418px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
