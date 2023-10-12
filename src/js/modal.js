@@ -3,6 +3,8 @@
   const closeModalButtons = document.querySelectorAll('[data-modal-close]');
   const modal = document.querySelector('[data-modal]');
 
+  console.log(modalButtons);
+
   modalButtons.forEach(button => {
     button.addEventListener('click', () => {
       toggleModal();

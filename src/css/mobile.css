@@ -112,8 +112,10 @@
   }
 
   .mob-menu-tel {
-    display: block;
-    margin-bottom: 24px;
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    gap: 5px;
   }
 
   .mob-menu-btn {

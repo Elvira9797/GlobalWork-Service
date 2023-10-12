@@ -83,49 +83,15 @@
     background-color: none;
   }
 
-  /* ----------------BENEFITS----------------- */
+  /* ------------------ONLINE----------------- */
 
-  .benefits-container {
+  .online-form {
     display: flex;
     flex-direction: row;
-    gap: 130px;
-    padding-left: 85px;
-  }
-
-  .benefits-list {
-    justify-content: start;
-    order: 0;
-    width: 370px;
-  }
-
-  .benefits-item {
-    width: 170px;
-    padding: 20px 24px;
-  }
-
-  /* ------------------BARBERS------------------ */
-
-  .barbers-list {
-    display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-between;
   }
 
-  .barbers-item {
-    width: calc((100% - 60px) / 3);
-  }
-
-  .barbers-item:not(:last-child) {
-    margin-bottom: 0;
-  }
-
-  /* ------------------GALLERY---------------- */
-
-  .gallery-item {
-    width: calc((100% - 90px) / 4);
-  }
-
-  /* ------------------ONLINE----------------- */
   .contacts-wrap {
     max-width: 1600;
     background-image: linear-gradient(
@@ -164,6 +130,10 @@
 
   .online-input {
     width: 270px;
+  }
+
+  #main-form-btn {
+    margin-bottom: 0;
   }
 
   /* -------------CONTACTS---------------- */

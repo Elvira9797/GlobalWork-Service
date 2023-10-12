@@ -31,11 +31,14 @@
             </svg>
           </a>
           <ul class="header-list list">
-            <li class="header-item" data-section="about">
-              <a href="" class="header-link link">About</a>
+            <li class="header-item" data-section="docs">
+              <a href="" class="header-link link">Services</a>
             </li>
             <li class="header-item" data-section="vacancies">
               <a href="" class="header-link link">Vacancies</a>
+            </li>
+            <li class="header-item" data-section="about">
+              <a href="" class="header-link link">About</a>
             </li>
             <li class="header-item" data-section="contacts">
               <a href="" class="header-link link">Contacts</a>
@@ -44,7 +47,11 @@
         </nav>
         <div class="header-contacts">
           <a href="tel:+48796387937" class="header-tel link">+48 796 387 937</a>
-          <button type="button" class="header-btn btn" data-modal-open>
+          <button
+            type="button"
+            class="header-btn btn to-contact"
+            data-section="contacts-us"
+          >
             Request a call
           </button>
         </div>
@@ -66,19 +73,25 @@
             </button>
             <nav>
               <ul class="mob-menu-list list">
-                <li class="mob-menu-item" data-section="about">
-                  <a href="" class="mob-menu-link link active">About</a>
+                <li class="mob-menu-item" data-section="docs">
+                  <a href="" class="mob-menu-link link">Services</a>
                 </li>
                 <li class="mob-menu-item" data-section="vacancies">
                   <a href="" class="mob-menu-link link">Vacancies</a>
+                </li>
+                <li class="mob-menu-item" data-section="about">
+                  <a href="" class="mob-menu-link link">About</a>
                 </li>
                 <li class="mob-menu-item" data-section="contacts">
                   <a href="" class="mob-menu-link link">Contacts</a>
                 </li>
               </ul>
             </nav>
-            <a href="tel:+48796387937" class="mob-menu-tel link"
-              >+48 796 387 937</a
+            <a href="tel:+48796387937" class="mob-menu-tel link">
+              <svg width="30" height="30">
+                <use href="./images/icons.svg#icon-phone-calling"></use>
+              </svg>
+              +48 796 387 937</a
             >
 
             <ul class="mob-soc-list list">
@@ -93,7 +106,7 @@
               </li>
               <li class="mob-soc-item">
                 <a
-                  href=""
+                  href="https://www.facebook.com/profile.php?id=61551079270752"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   class="mob-soc-link link"
@@ -122,7 +135,7 @@
               </li>
               <li class="hero-item">
                 <a
-                  href=""
+                  href="https://www.facebook.com/profile.php?id=61551079270752"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   class="hero-link link"
@@ -140,7 +153,11 @@
               We specialize in international job placement and offer
               comprehensive assistance with document processing.
             </p>
-            <button type="button" class="hero-btn btn" data-modal-open>
+            <button
+              type="button"
+              class="hero-btn btn to-contact"
+              data-section="contacts-us"
+            >
               Request a call
             </button>
           </div>
@@ -157,40 +174,50 @@
 
           <ul class="docs-list">
             <li class="docs-item">
-              <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-poland-flag"></use>
-              </svg>
-              <h3 class="docs-item-title">Poland</h3>
-              <b>Work permit for 1 or 2 years</b>
-              <p>(processing time: 1 month)</p>
-              <p class="docs-item-price">Price: 500€</p>
+              <a href="" class="docs-link" data-section="contacts-us">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-poland-flag"></use>
+                </svg>
+                <h3 class="docs-item-title">Poland</h3>
+                <b>Work permit for 1 or 2 years</b>
+                <p>(processing time: 1 month)</p>
+                <p class="docs-item-price">Price: 500€</p>
+              </a>
+            </li>
+
+            <li class="docs-item">
+              <a href="" class="docs-link" data-section="contacts-us">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-poland-flag"></use>
+                </svg>
+                <h3 class="docs-item-title">Poland</h3>
+                <b>Poland seasonal work permit</b>
+                <p>(processing time: 2 days)</p>
+                <p class="docs-item-price">Price: 300€</p>
+              </a>
+            </li>
+
+            <li class="docs-item">
+              <a href="" class="docs-link" data-section="contacts-us">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-cz-flag"></use>
+                </svg>
+                <h3 class="docs-item-title">Czech Republic</h3>
+                <b>Work permit for 90 days</b>
+                <p>(processing time: 20 days)</p>
+                <p class="docs-item-price">Price: 350€</p>
+              </a>
             </li>
             <li class="docs-item">
-              <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-poland-flag"></use>
-              </svg>
-              <h3 class="docs-item-title">Poland</h3>
-              <b>Poland seasonal work permit</b>
-              <p>(processing time: 2 days)</p>
-              <p class="docs-item-price">Price: 300€</p>
-            </li>
-            <li class="docs-item">
-              <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-cz-flag"></use>
-              </svg>
-              <h3 class="docs-item-title">Czech Republic</h3>
-              <b>Work permit for 90 days</b>
-              <p>(processing time: 20 days)</p>
-              <p class="docs-item-price">Price: 350€</p>
-            </li>
-            <li class="docs-item">
-              <svg width="70" height="70">
-                <use href="./images/icons.svg#icon-cz-flag"></use>
-              </svg>
-              <h3 class="docs-item-title">Czech Republic</h3>
-              <b>Work permit for 270 days</b>
-              <p>(processing time: 1 month)</p>
-              <p class="docs-item-price">Price: 650€</p>
+              <a href="" class="docs-link" data-section="contacts-us">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-cz-flag"></use>
+                </svg>
+                <h3 class="docs-item-title">Czech Republic</h3>
+                <b>Work permit for 270 days</b>
+                <p>(processing time: 1 month)</p>
+                <p class="docs-item-price">Price: 650€</p>
+              </a>
             </li>
           </ul>
         </div>
@@ -260,41 +287,80 @@
         </div>
       </section>
 
-      <!-- -------------CONTACTS-------------------- -->
+      <!-- -------------ONLINE_FORM-------------------- -->
 
       <div class="contacts-wrap">
         <div class="container">
-          <section class="online">
+          <section class="online" id="contacts-us">
             <h2 class="online-title title">Contact us</h2>
             <form class="online-form" id="form">
-              <input
-                type="text"
-                name="name"
-                class="online-input online-item"
-                placeholder="Name*"
-                required
-              />
-              <input
-                type="tel"
-                name="tel"
-                class="online-input online-item"
-                placeholder="Phone*"
-                required
-              />
+              <div class="validate-wrap">
+                <input
+                  type="text"
+                  name="name"
+                  class="online-input online-item"
+                  placeholder="Name*"
+                  required
+                />
+                <div class="error-message" id="name-error"></div>
+              </div>
+              <div class="validate-wrap">
+                <input
+                  type="text"
+                  name="email"
+                  class="online-input online-item"
+                  placeholder="Email*"
+                  required
+                />
+                <div class="error-message" id="email-error"></div>
+              </div>
+              <div class="validate-wrap">
+                <input
+                  type="tel"
+                  name="tel"
+                  class="online-input online-item"
+                  placeholder="Phone*"
+                  required
+                />
+                <div class="error-message" id="tel-error"></div>
+              </div>
 
               <textarea
                 name="message"
                 class="online-message online-item"
-                placeholder="message"
+                placeholder="Please specify the service or job position you are interested in."
               ></textarea>
 
-              <button type="submit" class="header-btn btn">
+              <div class="modal-form-checkbox-wrap">
+                <input
+                  id="user-policy"
+                  type="checkbox"
+                  name="privacy"
+                  value="true"
+                  class="input-checkbox visually-hidden"
+                />
+                <label for="user-policy" class="user-policy">
+                  <span class="checkbox-icon-wrap">
+                    <svg class="checkbox-icon" width="16px" height="16px">
+                      <use href="./images/icons.svg#icon-check-mark"></use>
+                    </svg>
+                  </span>
+                  <span class="privacy-text">
+                    I consent to the processing of the personal data provided by
+                    me in the contact form
+                  </span>
+                </label>
+              </div>
+
+              <button id="main-form-btn" type="submit" class="header-btn btn">
                 Submit an application
               </button>
             </form>
           </section>
+
+          <!-- -------------CONTACTS-------------------- -->
           <section class="contacts" id="contacts">
-            <h2 class="contacts-title title">Contacts</h2>
+            <h2 class="contacts-title title">Contact details</h2>
             <div class="contacts-address-wrap">
               <address class="contacts-adress">
                 <ul class="contacts-list list">
@@ -350,19 +416,19 @@
           <li class="footer-item">
             <a
               class="footer-link link"
-              href=""
+              href="https://wa.me/+48796387937"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Instagram</a
+              >WhatsApp</a
             >
           </li>
           <li class="footer-item">
             <a
               class="footer-link link"
-              href=""
+              href="https://www.facebook.com/profile.php?id=61551079270752"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Youtube</a
+              >Facebook</a
             >
           </li>
         </ul>
@@ -377,7 +443,7 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="modal-form">
+        <form class="modal-form" id="form">
           <label class="modal-form-field">
             <span class="modal-form-label">Name</span>
             <span class="modal-form-input-wrap">
@@ -462,11 +528,16 @@
             </label>
           </div>
 
-          <button type="submit" class="header-btn btn form-btn" data-modal-open>
+          <!-- <button type="submit" class="header-btn btn form-btn" data-modal-open>
             Request a call
-          </button>
+          </button> -->
         </form>
       </div>
+    </div>
+    <div class="btn-up btn-up_hide">
+      <svg class="top-arrow" width="20" height="20">
+        <use href="./images/icons.svg#icon-top-arrow"></use>
+      </svg>
     </div>
     <script type="module" src="./js/modal.js"></script>
     <script type="module" src="./js/mobile-menu.js"></script>
@@ -477,5 +548,6 @@
     <script type="module" src="./js/animation.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script type="module" src="./js/sendForm.js"></script>
+    <script type="module" src="./js/btnUp.js"></script>
   </body>
 </html>

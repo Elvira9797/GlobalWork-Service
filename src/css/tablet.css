@@ -173,7 +173,7 @@
         rgba(25, 28, 38, 0.6)
       ),
       url(../images/hero-bg.jpg);
-    padding: 200px 84px 35px 50px;
+    padding: 200px 84px 75px 50px;
   }
 
   @media (min-device-pixel-ratio: 2),
