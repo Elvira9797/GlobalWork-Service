@@ -513,7 +513,7 @@ img {
 }
 
 .about-card.fadeIn {
-  opacity: 1; /* Зробіть елемент видимим */
+  opacity: 1;
   transform: translateY(0);
 }
 

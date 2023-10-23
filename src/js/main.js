@@ -1,11 +1,6 @@
 import { initializeSwiper } from './swiper';
 import { imageFiles } from './resources';
 import { openModal, closeModal } from './modal';
-import './sendForm.js';
-import './mobile-menu.js';
-import './menu-scroll.js';
-import './btnUp.js';
-import './animation.js';
 import { data } from './resources';
 
 const { card, icons } = data;
