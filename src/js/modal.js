@@ -1,30 +1,23 @@
-(() => {
-  const modalButtons = document.querySelectorAll('[data-modal-open]');
-  const closeModalButtons = document.querySelectorAll('[data-modal-close]');
-  const modal = document.querySelector('[data-modal]');
+import { data } from './resources';
 
-  console.log(modalButtons);
+const { fullInfoVacancies } = data;
 
-  modalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      toggleModal();
-    });
-  });
+const modal = document.querySelector('[data-modal]');
 
-  closeModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      toggleModal();
-    });
-  });
+export function openModal(id) {
+  const vacancy = fullInfoVacancies.job_listing.filter(
+    vacancy => vacancy.id === id
+  );
+  console.log(vacancy);
+  toggleModal();
+}
 
-  modal.addEventListener('click', event => {
-    if (event.target === modal) {
-      toggleModal();
-    }
-  });
+export function closeModal() {
+  document.body.classList.remove('modal-open');
+  modal.classList.add('is-hidden');
+}
 
-  function toggleModal() {
-    document.body.classList.toggle('modal-open');
-    modal.classList.toggle('is-hidden');
-  }
-})();
+export function toggleModal() {
+  document.body.classList.toggle('modal-open');
+  modal.classList.toggle('is-hidden');
+}
