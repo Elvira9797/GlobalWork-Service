@@ -1,4 +1,3 @@
-import Swiper from 'swiper/bundle';
 import card from '../common/card-vacancies.json';
 import fullInfoVacancies from '../common/full-info-vacancies.json';
 import chemical from '../images/chemical.jpg';

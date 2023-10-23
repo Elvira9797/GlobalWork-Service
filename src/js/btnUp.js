@@ -26,5 +26,3 @@ const btnUp = {
 };
 
 btnUp.addEventListener();
-
-export default btnUp;
