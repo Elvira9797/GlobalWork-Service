@@ -67,12 +67,12 @@ form.addEventListener('submit', async event => {
 
     await emailjs.send(EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID, emailData);
 
-    Toastify({
-      text: 'Your credentials has been sent successfully',
-      duration: 3000,
-      backgroundColor: '#3adc24',
-      color: 'white',
-    }).showToast();
+    // Toastify({
+    //   text: 'Your credentials has been sent successfully',
+    //   duration: 3000,
+    //   backgroundColor: '#3adc24',
+    //   color: 'white',
+    // }).showToast();
 
     form.reset();
   } catch (error) {
