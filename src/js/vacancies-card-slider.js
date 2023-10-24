@@ -163,21 +163,3 @@ function toggleModal() {
   document.body.classList.toggle('modal-open');
   modal.classList.toggle('is-hidden');
 }
-
-// const applyForJobButtons = document.querySelectorAll('.modal-vacancy-btn');
-
-// applyForJobButtons.forEach(button => {
-//   button.addEventListener('click', event => {
-//     console.log(event.target);
-//     closeModal(); // Закрити модальне вікно
-
-//     // Прокрутити до секції "contacts"
-//     const contactsSection = document.querySelector('#contacts');
-//     if (contactsSection) {
-//       window.scrollTo({
-//         top: contactsSection.offsetTop,
-//         behavior: 'smooth', // Зробити плавну прокрутку
-//       });
-//     }
-//   });
-// });
