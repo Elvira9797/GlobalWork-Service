@@ -71,6 +71,7 @@ card.job_listing.forEach((vacancy, index) => {
 const modalButtons = document.querySelectorAll('[data-modal-open]');
 const closeModalButtons = document.querySelectorAll('[data-modal-close]');
 const modal = document.querySelector('[data-modal]');
+const modalVacancyWrap = document.querySelector('#modal-vacancy');
 
 modalButtons.forEach(button => {
   button.addEventListener('click', () => {
@@ -95,8 +96,62 @@ function openModal(id) {
   const vacancy = fullInfoVacancies.job_listing.filter(
     vacancy => vacancy.id === id
   );
-  console.log(vacancy);
+
+  const modalVacancy = vacancyMarkup(vacancy);
+  modalVacancyWrap.innerHTML = modalVacancy;
+
+  const applyForJobButton = document.querySelector('.modal-vacancy-btn');
+
+  applyForJobButton.addEventListener('click', handleClickApplyForJobBtn);
+
   toggleModal();
+}
+
+function handleClickApplyForJobBtn() {
+  closeModal();
+
+  const contactsSection = document.querySelector('#contacts-us');
+
+  if (contactsSection) {
+    window.scrollTo({
+      top: contactsSection.offsetTop,
+      behavior: 'smooth',
+    });
+  }
+}
+
+function vacancyMarkup(vacancy) {
+  return vacancy
+    .map(vacancy => {
+      return `<h3 class="modal-content-title">${vacancy.job_title}</h3>
+        <ul class="modal-content-list">
+          <li class="modal-content-item">
+            ${vacancy.looking_for}
+          </li>
+          <li><span class="modal-content-span">Responsibilities: </span>${
+            vacancy.responsibilities
+          }</li>
+          <li><span class="modal-content-span">Salary: </span> ${
+            vacancy.salary
+          }</li>
+          <li>
+            <span class="modal-content-span">Workhours: </span>${
+              vacancy.work_schedule
+            }
+          </li>
+          </ul>
+          <h4 class="offer-title">What we offer:</h4>
+          <ul class="offer-list">
+          ${vacancy.what_we_offer
+            .map(offer => {
+              return `<li class="offer-item">${offer}</li>`;
+            })
+            .join('')}
+            </ul>
+            <button type="button" class="vacancies-btn btn modal-vacancy-btn" >apply for a job</button>
+        `;
+    })
+    .join('');
 }
 
 function closeModal() {
@@ -108,3 +163,21 @@ function toggleModal() {
   document.body.classList.toggle('modal-open');
   modal.classList.toggle('is-hidden');
 }
+
+// const applyForJobButtons = document.querySelectorAll('.modal-vacancy-btn');
+
+// applyForJobButtons.forEach(button => {
+//   button.addEventListener('click', event => {
+//     console.log(event.target);
+//     closeModal(); // Закрити модальне вікно
+
+//     // Прокрутити до секції "contacts"
+//     const contactsSection = document.querySelector('#contacts');
+//     if (contactsSection) {
+//       window.scrollTo({
+//         top: contactsSection.offsetTop,
+//         behavior: 'smooth', // Зробити плавну прокрутку
+//       });
+//     }
+//   });
+// });
