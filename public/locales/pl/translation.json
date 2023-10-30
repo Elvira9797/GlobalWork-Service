@@ -7,7 +7,7 @@
     },
 
     "hero": {
-      "title": "Aj Serwis",
+      "title": "GlobalWork Service",
       "heroUnderTitle": "Łatwo znajdź możliwości pracy w Polsce. Doświadcz szybkiego i efektywnego procesu poszukiwania pracy",
       "button": "Zobacz wolne miejsca pracy"
     },
@@ -101,7 +101,7 @@
       ]
     },
     "whyAj": {
-      "title": "Dlaczego Aj Service",
+      "title": "Dlaczego GlobalWork Service",
       "benefits": {
         "job": "Pomoc w znalezieniu pracy",
         "doc": "Pomoc w wypełnianiu dokumentów",
@@ -405,8 +405,7 @@
   "info": {
     "workHoursTitle": "Godziny pracy: ",
     "workingTime": "Poniedziałek-piątek od 8:00 do 19:00",
-    "namePhoneContact": "MOISEIKO VASYL",
-    "email": "aj.serwis.sp@gmail.com",
-    "tel": "+48 539 649 808"
+    "email": "globalworkservice27@gmail.com",
+    "tel": "+48 796 387 937"
   }
 }

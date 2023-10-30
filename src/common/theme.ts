@@ -34,7 +34,7 @@ declare module '@emotion/react' {
 
 export const theme = {
   colors: {
-    accentColor: '#c3a069',
+    accentColor: '#194f82',
     primaryColor: '#1f1f1f',
     secondaryColor: '#ffffff',
     bgColor: '#f7f9fb',

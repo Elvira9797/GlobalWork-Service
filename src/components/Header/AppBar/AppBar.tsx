@@ -11,6 +11,7 @@ import {
   StyledNavWraper,
 } from './AppBar.styled';
 import { useAppContext } from '../../../context/AppContext';
+import { useMediaQuery } from 'react-responsive';
 
 interface AppBarProps {
   theme: {
@@ -20,10 +21,11 @@ interface AppBarProps {
 
 const AppBar: React.FC<AppBarProps> = ({ theme }) => {
   const { openModal, isOpenModal } = useAppContext();
+  const isWideScreen = useMediaQuery({ minWidth: 769 });
 
   return (
     <StyledAppBar>
-      <Logo loc="header" size="md" />
+      <Logo loc="header" size={isWideScreen ? 'lg' : 'md'} />
 
       <StyledNavWraper>
         <HeaderNav>

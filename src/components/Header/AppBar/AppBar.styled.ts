@@ -7,6 +7,10 @@ export const StyledAppBar = styled.div`
   justify-content: space-between;
   padding: 0.3rem 1rem;
   margin: 0 auto;
+
+  @media (max-width: 767px) {
+    padding: 1rem 1rem;
+  }
 `;
 
 export const StyledNavWraper = styled.div`

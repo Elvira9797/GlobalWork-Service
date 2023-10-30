@@ -7,7 +7,7 @@
     },
 
     "hero": {
-      "title": "Aj Serwis",
+      "title": "GlobalWork Service",
       "heroUnderTitle": "Effortlessly find job opportunities in Poland. Experience a fast and efficient job search process",
       "button": "View job vacancies"
     },
@@ -111,7 +111,7 @@
       ]
     },
     "whyAj": {
-      "title": "Why AJ Serwis",
+      "title": "Why GlobalWork Service",
       "benefits": {
         "job": "Help in finding a job",
         "doc": "Assistance in filing documents",
@@ -420,8 +420,7 @@
   "info": {
     "workHoursTitle": "Working hours: ",
     "workingTime": "Mon-Fri from 8:00 AM to 7:00 PM",
-    "namePhoneContact": "MOISEIKO VASYL",
-    "email": "aj.serwis.sp@gmail.com",
-    "tel": "+48 539 649 808"
+    "email": "globalworkservice27@gmail.com",
+    "tel": "+48 796 387 937"
   }
 }
