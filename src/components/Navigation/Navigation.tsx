@@ -48,6 +48,18 @@ const Navigation: React.FC<NavigationProps> = ({ flexDirection }) => {
             {t('main.nav.vacancies')}
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            onClick={handleCloseModal}
+            to={`/contacts?lang=${res}`}
+            className={({ isActive, isPending }) =>
+              isPending ? 'pending' : isActive ? 'active' : ''
+            }
+            state={{ languageChange: false }}
+          >
+            {t('main.nav.contacts')}
+          </NavLink>
+        </li>
       </StyledNavList>
     </nav>
   );
