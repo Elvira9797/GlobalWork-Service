@@ -9,7 +9,8 @@ import {
   vacanciesImages,
 } from '../common/vacanciesArr';
 import WorkPermits from '../components/WorkPermits/WorkPermits';
-import VacancieDetailsFormSection from '../components/VacancieDetailsForm/VacancieDetailsFormSection';
+
+import ContactUs from '../components/ContactUs/ContactUs';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -31,7 +32,7 @@ const Home = () => {
         vacanciesImages={vacanciesImages}
       />
       <WhyAjSerwis />
-      <VacancieDetailsFormSection vacancyName="undefined" />
+      <ContactUs />
     </>
   );
 };
