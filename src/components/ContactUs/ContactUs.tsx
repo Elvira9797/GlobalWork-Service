@@ -17,7 +17,9 @@ const VacancieDetailsFormSection: React.FC = () => {
       <SectionContainer>
         <StyledFormContainer>
           <StyledFormInfo>
-            <SectionTitle>{t('vacancyDetails.vacancyForm.title')}</SectionTitle>
+            <SectionTitle style={{ alignItems: 'start' }}>
+              {t('vacancyDetails.vacancyForm.title')}
+            </SectionTitle>
             <p>{t('vacancyDetails.vacancyForm.subtitle')}</p>
           </StyledFormInfo>
           <AnimateOnScroll>

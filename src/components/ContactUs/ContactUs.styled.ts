@@ -28,7 +28,7 @@ export const StyledFormInfo = styled.div`
   h2 {
     text-align: start;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   p {
     text-align: start;

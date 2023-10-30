@@ -23,13 +23,13 @@ export const Overlay = styled.section`
   background-position: center;
 
   @media (min-width: 768px) {
-    padding-top: 180px;
+    padding-top: 300px;
     padding-bottom: 180px;
     padding-left: 60px;
   }
 
   @media (min-width: 1200px) {
-    padding-top: 238px;
+    padding-top: 345px;
     padding-bottom: 238px;
     padding-left: 100px;
   }
@@ -39,7 +39,7 @@ export const HeroTitle = styled.h1`
   margin-bottom: 15px;
   color: ${({ theme }) => theme.colors.secondaryColor};
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   &::before {
