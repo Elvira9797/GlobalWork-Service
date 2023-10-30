@@ -11,10 +11,11 @@ const EMAIL_JS_TEMPLATE_ID = 'template_9ldoczw';
 emailjs.init(EMAIL_JS_USER_ID);
 export { EMAIL_JS_USER_ID, EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID };
 
-const sendEmail = async (data: FormFields) => {
+const sendEmail = async (data: FormFields, vacancyName: string) => {
   const emailData = {
     to_email: 'aj.serwis.sp@gmail.com',
-    from_name: `${data.name}`,
+    subject: `${vacancyName}`,
+    from_name: `${vacancyName}`,
     message: `
       Name: ${data.name}
       Surname: ${data.surname}

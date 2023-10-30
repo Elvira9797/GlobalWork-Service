@@ -64,7 +64,9 @@ const VacanciesDetails = () => {
           <VacancyInfo vacancy={currentVacancy} image={vacanciesImages[idx]} />
           <VacancyOffer vacancyOffers={currentVacancy?.what_we_offer} />
           <Element name="form">
-            <VacancieDetailsFormSection />
+            <VacancieDetailsFormSection
+              vacancyName={currentVacancy?.job_title}
+            />
           </Element>
           <VacanciesSlider
             title={t('vacancies.title')}

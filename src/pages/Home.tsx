@@ -19,6 +19,7 @@ const Home = () => {
   const cardFields: ICardFields = t('main.vacancies.card_fields', {
     returnObjects: true,
   });
+
   return (
     <>
       <Hero />
@@ -30,7 +31,7 @@ const Home = () => {
         vacanciesImages={vacanciesImages}
       />
       <WhyAjSerwis />
-      <VacancieDetailsFormSection />
+      <VacancieDetailsFormSection vacancyName="undefined" />
     </>
   );
 };
