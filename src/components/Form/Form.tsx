@@ -21,7 +21,6 @@ export interface FormFields {
 interface FormProps {
   style?: CSSProperties;
   lightTheme?: boolean;
-  vacancyName?: string | undefined;
 }
 
 const inputIds = {
@@ -33,11 +32,7 @@ const inputIds = {
   policy: nanoid(),
 };
 
-const Form: FC<FormProps> = ({
-  style,
-  lightTheme = false,
-  vacancyName = '',
-}) => {
+const Form: FC<FormProps> = ({ style, lightTheme = false }) => {
   const { validationSchema } = useValidationSchema();
   const {
     register,
@@ -67,7 +62,7 @@ const Form: FC<FormProps> = ({
   }, [allFieldsValue]);
 
   const onSubmit = async (data: FormFields) => {
-    await sendEmail(data, vacancyName);
+    await sendEmail(data);
     reset();
   };
 

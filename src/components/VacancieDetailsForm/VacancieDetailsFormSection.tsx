@@ -8,15 +8,8 @@ import {
 } from './VacancieDetailsFormSection-styled';
 import { useTranslation } from 'react-i18next';
 import AnimateOnScroll from '../AnimateOnScroll/AnimateOnScroll';
-import { FC } from 'react';
 
-interface VacancieDetailsFormSectionProps {
-  vacancyName?: string | undefined;
-}
-
-const VacancieDetailsFormSection: FC<VacancieDetailsFormSectionProps> = ({
-  vacancyName,
-}) => {
+const VacancieDetailsFormSection = () => {
   const { t } = useTranslation();
 
   return (
@@ -29,7 +22,6 @@ const VacancieDetailsFormSection: FC<VacancieDetailsFormSectionProps> = ({
           </StyledFormInfo>
           <AnimateOnScroll>
             <Form
-              vacancyName={vacancyName}
               lightTheme={true}
               style={{
                 padding: '2rem',
