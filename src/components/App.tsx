@@ -6,7 +6,7 @@ import { lazy } from 'react';
 const LazyHome = lazy(() => import('../pages/Home'));
 const LazyVacancies = lazy(() => import('../pages/Vacancies'));
 const LazyVacanciesDetails = lazy(() => import('../pages/VacanciesDetails'));
-// const LazyContacts = lazy(() => import('../pages/Contacts'));
+const LazyContacts = lazy(() => import('../pages/Contacts'));
 
 export const App: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ export const App: React.FC = () => {
         <Route index element={<LazyHome />} />
         <Route path="vacancies" element={<LazyVacancies />} />
         <Route path="vacancies/:id" element={<LazyVacanciesDetails />} />
-        {/* <Route path="contacts" element={<LazyContacts />} /> */}
+        <Route path="contacts" element={<LazyContacts />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>

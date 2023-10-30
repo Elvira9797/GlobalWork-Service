@@ -48,7 +48,7 @@ const Navigation: React.FC<NavigationProps> = ({ flexDirection }) => {
             {t('main.nav.vacancies')}
           </NavLink>
         </li>
-        {/* <li>
+        <li>
           <NavLink
             onClick={handleCloseModal}
             to={`/contacts?lang=${res}`}
@@ -59,7 +59,7 @@ const Navigation: React.FC<NavigationProps> = ({ flexDirection }) => {
           >
             {t('main.nav.contacts')}
           </NavLink>
-        </li> */}
+        </li>
       </StyledNavList>
     </nav>
   );

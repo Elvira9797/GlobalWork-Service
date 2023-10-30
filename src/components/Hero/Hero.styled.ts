@@ -1,10 +1,9 @@
 import styled from '@emotion/styled';
-import desktopBgImage from '../../img/hero-bg.jpg';
+import desktopBgImage from '../../img/desktopBgImage.jpg';
 
 export const Overlay = styled.section`
   position: relative;
   display: flex;
-  max-width: 1600px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -30,7 +29,7 @@ export const Overlay = styled.section`
   }
 
   @media (min-width: 1200px) {
-    padding-top: 345px;
+    padding-top: 238px;
     padding-bottom: 238px;
     padding-left: 100px;
   }

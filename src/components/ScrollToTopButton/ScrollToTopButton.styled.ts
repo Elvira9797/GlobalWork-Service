@@ -7,7 +7,7 @@ export const BtnToTop = styled.button`
   bottom: 25px;
   width: 45px;
   height: 45px;
-  background-image: linear-gradient(#194f82, #3e7dba);
+  background-image: linear-gradient(#c3a069, #9a7a47);
   display: flex;
   align-items: center;
   justify-content: center;

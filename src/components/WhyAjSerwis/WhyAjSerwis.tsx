@@ -2,9 +2,9 @@ import { useTranslation } from 'react-i18next';
 import SectionContainer from '../SectionContainer/SectionContainer';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import BenefitsList from './BenefitsList/BenefitsList';
-import { StyledWhyAjSection } from './WhyGlobalWork.styled';
+import { StyledWhyAjSection } from './WhyAjSerwis.styled';
 
-const WhyGlobalWork: React.FC = () => {
+const WhyAjSerwis: React.FC = () => {
   const { t } = useTranslation();
 
   return (
@@ -17,4 +17,4 @@ const WhyGlobalWork: React.FC = () => {
   );
 };
 
-export default WhyGlobalWork;
+export default WhyAjSerwis;

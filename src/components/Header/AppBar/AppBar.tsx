@@ -1,7 +1,7 @@
 import LangSelect from '../../LangSelect/LangSelect';
 import Navigation from '../../Navigation/Navigation';
 import Logo from '../../Logo/Logo';
-import { useMediaQuery } from 'react-responsive';
+
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 import {
@@ -21,11 +21,9 @@ interface AppBarProps {
 const AppBar: React.FC<AppBarProps> = ({ theme }) => {
   const { openModal, isOpenModal } = useAppContext();
 
-  const isWideScreen = useMediaQuery({ minWidth: 768 });
-
   return (
     <StyledAppBar>
-      <Logo loc="header" size={isWideScreen ? 'lg' : 'md'} />
+      <Logo loc="header" size="md" />
 
       <StyledNavWraper>
         <HeaderNav>
