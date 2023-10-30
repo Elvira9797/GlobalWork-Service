@@ -1,33 +1,40 @@
-import { useTranslation } from 'react-i18next';
-import Form from '../Form/Form';
 import SectionContainer from '../SectionContainer/SectionContainer';
 import SectionTitle from '../SectionTitle/SectionTitle';
-import { Section, SubTitle } from './ContactUs.styled';
-import AnimateOnView from '../AnimateOnView/AnimateOnView';
+import Form from '../Form/Form';
+import {
+  StyledFormContainer,
+  StyledFormInfo,
+  StyledFormSection,
+} from './ContactUs.styled';
+import { useTranslation } from 'react-i18next';
+import AnimateOnScroll from '../AnimateOnScroll/AnimateOnScroll';
 
-const ContactUs = () => {
+const VacancieDetailsFormSection: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Section>
+    <StyledFormSection>
       <SectionContainer>
-        <SectionTitle style={{ color: '#fff' }}>
-          {t('main.contactUs.title')}
-        </SectionTitle>
-        <SubTitle>{t('main.contactUs.subtitle')}</SubTitle>
-        <AnimateOnView>
-          <Form
-            style={{
-              padding: '2rem',
-              borderRadius: '2rem',
-              // backgroundColor: '  rgba(34, 32, 32, 0.4)',
-              // backdropFilter: 'blur(10px)',
-            }}
-          />
-        </AnimateOnView>
+        <StyledFormContainer>
+          <StyledFormInfo>
+            <SectionTitle>{t('vacancyDetails.vacancyForm.title')}</SectionTitle>
+            <p>{t('vacancyDetails.vacancyForm.subtitle')}</p>
+          </StyledFormInfo>
+          <AnimateOnScroll>
+            <Form
+              lightTheme={true}
+              style={{
+                padding: '2rem',
+                border: '2px solid transparent',
+                boxShadow: '0px 12px 27px -3px rgba(0,0,0,0.74)',
+                borderRadius: '2rem',
+              }}
+            />
+          </AnimateOnScroll>
+        </StyledFormContainer>
       </SectionContainer>
-    </Section>
+    </StyledFormSection>
   );
 };
 
-export default ContactUs;
+export default VacancieDetailsFormSection;
