@@ -15,7 +15,7 @@ export const StyledVacancyItem = styled.li`
   overflow: hidden;
 
   &:hover img {
-    transform: scale(1.03);
+    transform: scale(1.04);
     transition: all 500ms, filter 500ms ease-in-out;
     filter: brightness(100%);
   }
