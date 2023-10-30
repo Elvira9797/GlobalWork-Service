@@ -1,0 +1,426 @@
+{
+  "main": {
+    "nav": {
+      "home": "Home",
+      "vacancies": "Vacancies",
+      "contacts": "Contacts"
+    },
+
+    "hero": {
+      "title": "GlobalWork Service",
+      "heroUnderTitle": "Effortlessly find job opportunities in Poland. Experience a fast and efficient job search process",
+      "button": "View job vacancies"
+    },
+
+    "aboutUs": {
+      "title": "About Us",
+      "list_titles": {
+        "who_are_we": "Who are we?",
+        "our_goals": "Our goals",
+        "why_trust": "Why should you trust us?"
+      },
+      "list_text": {
+        "who_are_we_text": "We are a leading Polish advisory company specialized in employee outsourcing. We started our operations in 2017, recognizing the opportunity to help companies meet their staffing needs, primarily by sourcing employees from Eastern Europe.",
+        "our_goals_text": "In 2022, as one of the first companies in the Polish market, we expanded our operations to include employees from the Philippines. Our ambition is to provide the highest level of services that surpass the market and set a new standard. We continuously focus on the high competence of our team, which guarantees quality, efficiency, and effectiveness in the processes we manage",
+        "why_trust_text": "Why should you trust us? Over 100 companies, including leaders in the FMCG industry, have placed their trust in us. We have employed over 10,000 workers, and our differentiator is speed of action. Orders for up to 200 employees are most commonly fulfilled within 2 weeks from signing the contract."
+      }
+    },
+
+    "vacancies": {
+      "title": "Vacancies",
+      "card_fields": {
+        "city": "City",
+        "position": "Position",
+        "salary": "Salary",
+        "more_info": "More info"
+      },
+      "job_listing": [
+        {
+          "id": "001",
+          "job_title": "Household chemicals production",
+          "city": "Zwierzyniec Pierwszy",
+          "position": "packer and sorter",
+          "salary": "20 PLN / hour net.",
+          "image": "https://jobganic.com/wp-content/uploads/2017/12/young-female-organic-farmer.jpg"
+        },
+        {
+          "id": "002",
+          "job_title": "Furniture assembly workers (chairs)",
+          "city": "Turek",
+          "position": "assembler",
+          "salary": "23 PLN / hour net.",
+          "image": "https://www.icims.com/wp-content/uploads/2020/12/manufacturing-industry-blog-header-1.png"
+        },
+        {
+          "id": "003",
+          "job_title": "Cocoa, coffee, jelly production",
+          "city": "Zabierzów",
+          "position": "packer and sorter",
+          "salary": "19 PLN / hour net.",
+          "image": "https://www.acceptrec.co.uk/images/factory_job_leicester.png"
+        },
+        {
+          "id": "004",
+          "job_title": "Insulation products manufacturing",
+          "city": "Uniejów",
+          "position": "packer",
+          "salary": "18 PLN / hour net.",
+          "image": "https://www.apptree.com/wp-content/uploads/2022/05/top-10-highest-paying-manufacturing-jobs-in-the-us-united-states-2022-banner-apptree-1024x576.jpg"
+        },
+        {
+          "id": "005",
+          "job_title": "Forklift Operator with UDT",
+          "city": "Rakszawa, Jędrzejów",
+          "position": "forklift operator",
+          "salary": "25 PLN / hour net.",
+          "image": "https://www.oeffa.org/graphics/farmjobs.jpg"
+        },
+        {
+          "id": "006",
+          "job_title": "Energy drinks and juices production",
+          "city": "Niepołomice",
+          "position": "packer and sorter",
+          "salary": "19 PLN / hour net.",
+          "image": "https://tbcdn.talentbrew.com/company/1187/v4_0_gst/img/who-are-the-ups-warehouse-workers-m.jpg"
+        },
+        {
+          "id": "007",
+          "job_title": "Beer production",
+          "city": "Rakszawa, Jędrzejów",
+          "position": "beer bottler on the line",
+          "salary": "19.5 PLN/hour net.",
+          "image": "https://www.currentschoolnews.com/wp-content/uploads/2022/05/assembly.jpg"
+        },
+
+        {
+          "id": "009",
+          "job_title": "Ice cream production",
+          "city": "Kalisz",
+          "position": "packer and labeler",
+          "salary": "19 PLN / hour net.",
+          "image": "https://www.oeffa.org/graphics/farmjobs.jpg"
+        },
+        {
+          "id": "010",
+          "job_title": "Laying pavement tiles",
+          "city": "Łódź",
+          "position": "pavement tile installer",
+          "salary": "25-30 PLN / hour net.",
+          "image": "https://www.oeffa.org/graphics/farmjobs.jpg"
+        }
+      ]
+    },
+    "whyAj": {
+      "title": "Why GlobalWork Service",
+      "benefits": {
+        "job": "Help in finding a job",
+        "doc": "Assistance in filing documents",
+        "live": "Free housing near work",
+        "bilingual": "Assistance of a bilingual coordinator",
+        "transfer": "Free transfer to the place of work"
+      }
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "subtitle": "We will be glad if you leave your info to contact with us!",
+      "form": {
+        "toast": "Your credentials has been sent successfully",
+        "fields": {
+          "name": "Name *",
+          "surname": "Surname *",
+          "phone": "Phone *",
+          "email": "Email *",
+          "comment": "Comment or review",
+          "policy": "I agree to the processing of personal data for the purposes of recruiting for the agency AJ Serwis"
+        },
+        "btnText": "Submit form",
+        "errors": {
+          "name": {
+            "required": "Name is required",
+            "matches": "Only letters are allowed",
+            "min": "Name must be at least 2 characters long",
+            "max": "Name must be no more than 35 characters long"
+          },
+          "surname": {
+            "required": "Surname is required",
+            "matches": "Only letters are allowed",
+            "min": "Surname must be at least 2 characters long",
+            "max": "Surname must be no more than 35 characters long"
+          },
+          "phone": {
+            "required": "Phone number is required",
+            "matches": "Only numbers are allowed",
+            "min": "Phone number must be at least 6 characters long",
+            "max": "Phone number must be no more than 18 characters long"
+          },
+          "email": {
+            "required": "Email is required",
+            "matches": "Invalid email format"
+          },
+          "comment": {
+            "max": "Comment or review must be no more than 250 characters long"
+          }
+        }
+      }
+    },
+    "footer": {}
+  },
+  "vacancies": {
+    "title": "Current Job Offers",
+    "back": "GO BACK"
+  },
+  "vacancyDetails": {
+    "vacancyInfo": {
+      "job_listing": [
+        {
+          "id": "001",
+          "job_title": "Household chemicals production",
+          "looking_for": "We are looking for women, men, or married couples",
+          "salary": "20 PLN / hour net.",
+          "work_schedule": "8-hour shifts with the potential for overtime, from Monday to Saturday (Sundays upon request), spanning two shifts",
+          "location": ["Zwierzyniec Pierwszy"],
+          "location_map": "https://maps.app.goo.gl/QRHyUNDnnQdtyDf1A",
+          "responsibilities": ["packing and sorting"],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 4 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "Umowa Zlecenie"
+          ]
+        },
+        {
+          "id": "002",
+          "job_title": "Furniture assembly workers (chairs)",
+          "looking_for": "We are looking for women and men",
+          "salary": "23 PLN / hour net.",
+          "work_schedule": "8-hour shifts, from Monday to Saturday, spanning two shifts",
+          "location": ["Turek"],
+          "location_map": "https://maps.app.goo.gl/CrkfmbhzgrvBFwMX6",
+          "responsibilities": ["assembly of components for chair installation"],
+          "requirements": [
+            "required ability to understand the Polish language"
+          ],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 4 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "Umowa Zlecenie",
+            "Bonuses for not having any absences at work"
+          ]
+        },
+
+        {
+          "id": "003",
+          "job_title": "Cocoa, coffee, jelly production",
+          "looking_for": "We are looking for women, men, or married couples",
+          "salary": "19 PLN / hour net.",
+          "work_schedule": "12-hour shifts, from Monday to Friday (2 work Saturdays per month), spanning two shifts",
+          "location": ["Zabierzów"],
+          "location_map": "https://maps.app.goo.gl/4dL1ApEop1D8GgT18",
+          "responsibilities": ["packing and sorting"],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 4 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "Umowa Zlecenie"
+          ]
+        },
+
+        {
+          "id": "004",
+          "job_title": "Insulation products manufacturing",
+          "looking_for": "We are looking for women and men",
+          "salary": "18 PLN / hour net.",
+          "work_schedule": "12-hour shifts, from Monday to Saturdays, spanning two shifts",
+          "location": ["Uniejów"],
+          "location_map": "https://maps.app.goo.gl/gXU6umTp2vWiBoob9",
+          "responsibilities": ["packing and sorting"],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 3-4 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "Umowa Zlecenie"
+          ]
+        },
+        {
+          "id": "005",
+          "job_title": "Forklift Operator with UDT",
+          "looking_for": "We are looking for women and men",
+          "salary": "25 PLN / hour net.",
+          "work_schedule": "12-hour shifts, 260-320 hours per month, spanning two shifts",
+          "location": ["Rakszawa", "Jędrzejów"],
+          "location_map": "https://maps.app.goo.gl/qQ6QFd46peCdDK1x7",
+          "location_map2": "https://maps.app.goo.gl/LhTX8FTFo7FVNMrY6",
+          "requirements": [
+            "forklift operating experience",
+            "UDT certification held"
+          ],
+          "responsibilities": [
+            "the work is exclusively related to a forklift truck: loading, unloading, and arranging goods in the warehouse"
+          ],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 3-4 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "Umowa Zlecenie"
+          ]
+        },
+
+        {
+          "id": "006",
+          "job_title": "Energy drinks and juices production",
+          "looking_for": "We are looking for women, men, or married couples",
+          "salary": "19 PLN / hour net.",
+          "work_schedule": "12-hour shifts, from Monday to Saturday (Sundays on request), spanning two shifts",
+          "location": ["Niepołomice"],
+          "location_map": "https://maps.app.goo.gl/rvLFDaWysQFjVPQEA",
+          "responsibilities": ["packing and sorting"],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 4 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "Umowa Zlecenie"
+          ]
+        },
+
+        {
+          "id": "007",
+          "job_title": "Beer production",
+          "looking_for": "We are looking for women and men",
+          "salary": "19.5 PLN/hour net.",
+          "work_schedule": "8-12-hour shifts, 1 shift: 6:00-14:00 + overtime, 2nd shift: 14:00-22:00 + overtime, 3rd shift: 22:00-6:00 + overtime",
+          "location": ["Rakszawa", "Jędrzejów"],
+          "location_map": "https://maps.app.goo.gl/qQ6QFd46peCdDK1x7",
+          "location_map2": "https://maps.app.goo.gl/LhTX8FTFo7FVNMrY6",
+          "responsibilities": [
+            "ensuring the proper labeling, packaging, and sealing of beer bottles"
+          ],
+          "requirements": [
+            "required ability to understand the Polish language"
+          ],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 2-3 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "Umowa Zlecenie"
+          ]
+        },
+
+        {
+          "id": "009",
+          "job_title": "Ice cream production",
+          "looking_for": "We are looking for women and men",
+          "salary": "19 PLN / hour net. + bonuses",
+          "work_schedule": "12-hour shifts, from Monday to Saturday, spanning two shifts",
+          "location": ["Kalisz"],
+          "location_map": "https://maps.app.goo.gl/5Cx6DDzDSe85YJ2q6",
+          "responsibilities": [
+            "packaging ice cream products in containers or packaging materials, ensuring proper sealing and labeling",
+            "porting and inspecting ice cream items for quality, including checking for any defects or irregularities"
+          ],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 4 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "The indoor temperature is not cold, +15°C",
+            "Umowa Zlecenie"
+          ]
+        },
+        {
+          "id": "010",
+          "job_title": "Laying pavement tiles",
+          "looking_for": "We are looking for specialist employees",
+          "salary": "25-30 PLN / hour net.",
+          "work_schedule": "10-hour shifts, from Monday to Saturday",
+          "location": ["Łódź"],
+          "location_map": "https://maps.app.goo.gl/jrPm6e2JZfDcJfEc8",
+          "responsibilities": ["laying pavement tiles"],
+          "what_we_offer": [
+            "Opportunity to work both on a visa and visa-free regime",
+            "Accommodation is provided for 350 PLN per month",
+            "Room for 4 people",
+            "Payment from the 15th to the 20th of each month",
+            "We make a residence card",
+            "Free transportation to work",
+            "Free work attire/clothing",
+            "The indoor temperature is not cold, +15°C",
+            "Umowa Zlecenie"
+          ]
+        }
+      ],
+      "job_list_titles": {
+        "requirements": "requirements",
+        "responsibilities": "responsibilities",
+        "location": "location",
+        "salary": "salary",
+        "work_hours": "workhours"
+      },
+      "btnText": "apply for a job"
+    },
+    "vacancyOffer": {
+      "title": "What we offer",
+      "subtitle": "Our company provides everything you need to work in Poland"
+    },
+    "vacancyForm": {
+      "title": "Respond to the vacancy by filling out the form!",
+      "subtitle": "Please provide only your valid contact details"
+    }
+  },
+  "contacts": {
+    "hero": {
+      "title": "Connect with us",
+      "heroUnderTitle": "Let us assist you with expert advice and find the right vacancy for you",
+      "button": "Contact Us"
+    },
+    "contactDetails": {
+      "title": "Contact Details",
+      "address": "Address",
+      "phone": "Call today",
+      "email": "Email",
+      "hours": "Working hours",
+      "days": "Mon - Fri:",
+      "time": "8:00 AM - 7:00 PM"
+    },
+    "contactForm": {
+      "title": "Contact us!"
+    }
+  },
+  "info": {
+    "workHoursTitle": "Working hours: ",
+    "workingTime": "Mon-Fri from 8:00 AM to 7:00 PM",
+    "email": "globalworkservice27@gmail.com",
+    "tel": "+48 796 387 937"
+  }
+}
