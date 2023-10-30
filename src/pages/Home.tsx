@@ -1,3 +1,4 @@
+import ContactUs from '../components/ContactUs/ContactUs';
 import Hero from '../components/Hero/Hero';
 import VacanciesSlider from '../components/VacanciesSlider/VacanciesSlider';
 import WhyAjSerwis from '../components/WhyAjSerwis/WhyAjSerwis';
@@ -9,7 +10,6 @@ import {
   vacanciesImages,
 } from '../common/vacanciesArr';
 import WorkPermits from '../components/WorkPermits/WorkPermits';
-import VacancieDetailsFormSection from '../components/VacancieDetailsForm/VacancieDetailsFormSection';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -30,7 +30,7 @@ const Home = () => {
         vacanciesImages={vacanciesImages}
       />
       <WhyAjSerwis />
-      <VacancieDetailsFormSection />
+      <ContactUs />
     </>
   );
 };
