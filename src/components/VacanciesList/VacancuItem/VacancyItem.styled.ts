@@ -10,6 +10,8 @@ export const StyledVacancyItem = styled.li`
   transition: ${theme.transition.basic};
   border-radius: 4px;
   background: ${theme.colors.secondaryColor};
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   overflow: hidden;
 
   &:hover img {
@@ -83,5 +85,5 @@ export const StyledTextContainer = styled.div`
   flex-direction: column;
   gap: 5px;
 
-  padding: 16px 8px;
+  padding: 16px 12px;
 `;
