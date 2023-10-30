@@ -14,7 +14,7 @@ import {
 import Button from '../../Button/Button';
 import { FaLocationDot } from 'react-icons/fa6';
 import { BsFillPersonFill } from 'react-icons/bs';
-import { GiCash } from 'react-icons/gi';
+import { FaRegCreditCard } from 'react-icons/fa';
 import AnimateOnView from '../../AnimateOnView/AnimateOnView';
 import i18n from '../../../i18n';
 
@@ -49,16 +49,16 @@ const VacancyItem: React.FC<IVacancyItem> = ({
 
         <StyledTextContainer>
           <StyledVacancyText>
-            <FaLocationDot size={24} color="#c3a069" />
+            <FaLocationDot size={24} color="#194f82" />
             <StyledVacancyTitle>{cardFields.city}:</StyledVacancyTitle> {city}
           </StyledVacancyText>
           <StyledVacancyText>
-            <BsFillPersonFill size={24} color="#c3a069" />
+            <BsFillPersonFill size={24} color="#194f82" />
             <StyledVacancyTitle>{cardFields.position}:</StyledVacancyTitle>
             {position}
           </StyledVacancyText>
           <StyledVacancyText>
-            <GiCash size={24} color="#c3a069" />
+            <FaRegCreditCard size={24} color="#194f82" />
             <StyledVacancyTitle>{cardFields.salary}:</StyledVacancyTitle>
             {salary}
           </StyledVacancyText>

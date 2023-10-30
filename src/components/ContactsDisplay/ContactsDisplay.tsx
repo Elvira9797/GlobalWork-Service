@@ -38,9 +38,8 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
       </div>
       <ContactBox>
         <ContactWraper displayName={displayName}>
-          <span>{t('info.namePhoneContact')}</span>
           <ContactPhone
-            href="https://wa.me/48539649808"
+            href="https://wa.me/48796387937"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,7 +53,7 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
         <a
           href={`mailto:${t('info.email')}`}
           style={{
-            color: theme.colors.accentColor,
+            color: theme.colors.lightGrey,
             fontSize: '0.8rem',
           }}
         >

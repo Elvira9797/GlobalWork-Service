@@ -31,7 +31,7 @@ const VacancyOffer: FC<VacancyOfferProps> = ({ vacancyOffers }) => {
               <StyledItem key={offer}>
                 <AiFillCheckCircle
                   size={'1.2rem'}
-                  style={{ color: '#c3a069' }}
+                  style={{ color: '#194f82' }}
                 />
                 {offer}
               </StyledItem>

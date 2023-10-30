@@ -96,7 +96,7 @@ const VacancyInfo: FC<VacansyInfoProps> = ({ vacancy, image }) => {
                     rel="noopener nofollow noreferrer"
                     href={vacancy?.location_map}
                   >
-                    <FaLocationDot size={16} color="#c3a069" />
+                    <FaLocationDot size={16} color="#194f82" />
 
                     {vacancy?.location[0]}
                   </VacancyLink>
@@ -106,7 +106,7 @@ const VacancyInfo: FC<VacansyInfoProps> = ({ vacancy, image }) => {
                       rel="noopener nofollow noreferrer"
                       href={vacancy?.location_map2}
                     >
-                      <FaLocationDot size={16} color="#c3a069" />
+                      <FaLocationDot size={16} color="#194f82" />
 
                       {vacancy?.location[1]}
                     </VacancyLink>

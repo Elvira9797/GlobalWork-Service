@@ -89,7 +89,7 @@ const getVariantStyles = (
         padding: 0.6rem 4rem;
         border-radius: 0.5rem;
         font-weight: 700;
-
+        color: ${theme.colors.secondaryColor};
         &:hover:enabled {
           background-color: ${lightTheme
             ? theme.colors.primaryColor
@@ -111,11 +111,13 @@ const getVariantStyles = (
       `;
     case 'card':
       return css`
-        width: 100%;
-        background-color: ${theme.colors.primaryColor};
-        border-color: ${theme.colors.primaryColor};
-        border-radius: 4;
         padding: 0.6rem 4rem;
+        border-radius: 0.5rem;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        background-color: ${theme.colors.accentColor};
+        border-color: ${theme.colors.primaryColor};
         &:hover {
           color: ${theme.colors.accentColor};
           font-weight: ${theme.typography.fontWeight.regular};
