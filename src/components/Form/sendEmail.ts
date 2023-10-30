@@ -4,16 +4,16 @@ import { FormFields } from './Form';
 import 'react-toastify/dist/ReactToastify.css';
 import i18next from 'i18next';
 
-const EMAIL_JS_USER_ID = 'VGEV7y7T5pVhp9lrY';
-const EMAIL_JS_SERVICE_ID = 'service_kwhvrxt';
-const EMAIL_JS_TEMPLATE_ID = 'template_i8pabwh';
+const EMAIL_JS_USER_ID = 'eNBJiy-cGjOG9e9o7';
+const EMAIL_JS_SERVICE_ID = 'service_w20v33g';
+const EMAIL_JS_TEMPLATE_ID = 'template_9ldoczw';
 
 emailjs.init(EMAIL_JS_USER_ID);
 export { EMAIL_JS_USER_ID, EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID };
 
 const sendEmail = async (data: FormFields, vacancyName: string) => {
   const emailData = {
-    to_email: 'globalworkservice27@gmail.com',
+    to_email: 'aj.serwis.sp@gmail.com',
     subject: `${vacancyName}`,
     from_name: `${vacancyName}`,
     message: `

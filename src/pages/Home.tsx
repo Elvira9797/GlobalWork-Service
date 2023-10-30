@@ -1,6 +1,8 @@
-// import ContactUs from '../components/ContactUs/ContactUs';
+import AboutUs from '../components/AboutUs/AboutUs';
+import ContactUs from '../components/ContactUs/ContactUs';
 import Hero from '../components/Hero/Hero';
 import VacanciesSlider from '../components/VacanciesSlider/VacanciesSlider';
+import WhyAjSerwis from '../components/WhyAjSerwis/WhyAjSerwis';
 
 import { useTranslation } from 'react-i18next';
 import {
@@ -8,9 +10,6 @@ import {
   IVacancieData,
   vacanciesImages,
 } from '../common/vacanciesArr';
-import WorkPermits from '../components/WorkPermits/WorkPermits';
-import VacancieDetailsFormSection from '../components/VacancieDetailsForm/VacancieDetailsFormSection';
-import WhyGlobalWork from '../components/WhyGlobalWork/WhyGlobalWork';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -23,15 +22,15 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <WorkPermits />
+      <AboutUs />
       <VacanciesSlider
         title={t('main.vacancies.title')}
         vacancies={jobListings}
         cardFields={cardFields}
         vacanciesImages={vacanciesImages}
       />
-      <WhyGlobalWork />
-      <VacancieDetailsFormSection />
+      <WhyAjSerwis />
+      <ContactUs />
     </>
   );
 };

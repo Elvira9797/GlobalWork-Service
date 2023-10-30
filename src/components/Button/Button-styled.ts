@@ -111,15 +111,13 @@ const getVariantStyles = (
       `;
     case 'card':
       return css`
-        width: 210px;
-        background-color: ${theme.colors.accentColor};
-        border-color: ${theme.colors.accentColor};
-        margin: 0 auto;
-        border-radius: 25px;
-        margin-bottom: 25px;
+        width: 100%;
+        background-color: ${theme.colors.primaryColor};
+        border-color: ${theme.colors.primaryColor};
+        border-radius: 4;
         padding: 0.6rem 4rem;
         &:hover {
-          color: ${theme.colors.secondaryColor};
+          color: ${theme.colors.accentColor};
           font-weight: ${theme.typography.fontWeight.regular};
         }
       `;

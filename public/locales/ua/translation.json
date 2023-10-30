@@ -7,7 +7,7 @@
     },
 
     "hero": {
-      "title": "GlobalWork Service",
+      "title": "Aj Serwis",
       "heroUnderTitle": "Легко та миттєво відкривайте перед собою можливості роботи в Польщі, завдяки швидкому та ефективному пошуку!",
       "button": "Знайти роботу в Польщі"
     },
@@ -102,7 +102,7 @@
       ]
     },
     "whyAj": {
-      "title": "Чому GlobalWork Service",
+      "title": "Чому Aj Service",
       "benefits": {
         "job": "Допомога в пошуку роботи",
         "doc": "Допомога у заповненні документів",
@@ -405,7 +405,8 @@
   "info": {
     "workHoursTitle": "Робочий час: ",
     "workingTime": "Пн-Пт з 8:00 до 19:00",
-    "email": "globalworkservice27@gmail.com",
-    "tel": "+48 796 387 937"
+    "namePhoneContact": "МОЇСЕЙКО ВАСИЛЬ",
+    "email": "aj.serwis.sp@gmail.com",
+    "tel": "+48 539 649 808"
   }
 }
