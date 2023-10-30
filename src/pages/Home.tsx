@@ -1,4 +1,3 @@
-import AboutUs from '../components/AboutUs/AboutUs';
 import ContactUs from '../components/ContactUs/ContactUs';
 import Hero from '../components/Hero/Hero';
 import VacanciesSlider from '../components/VacanciesSlider/VacanciesSlider';
@@ -10,6 +9,7 @@ import {
   IVacancieData,
   vacanciesImages,
 } from '../common/vacanciesArr';
+import WorkPermits from '../components/WorkPermits/WorkPermits';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <AboutUs />
+      <WorkPermits />
       <VacanciesSlider
         title={t('main.vacancies.title')}
         vacancies={jobListings}
