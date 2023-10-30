@@ -7,10 +7,8 @@ import {
 
 import { FaPhone } from 'react-icons/fa';
 import { BsPhoneVibrateFill } from 'react-icons/bs';
-import { BiMailSend } from 'react-icons/bi';
-
+import { GrMail } from 'react-icons/gr';
 import { theme } from '../../common/theme';
-
 import { useTranslation } from 'react-i18next';
 
 interface ContactsDisplayProps {
@@ -38,9 +36,8 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
       </div>
       <ContactBox>
         <ContactWraper displayName={displayName}>
-          <span>{t('info.namePhoneContact')}</span>
           <ContactPhone
-            href="https://wa.me/48539649808"
+            href="https://wa.me/48796387937"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,11 +47,11 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
         </ContactWraper>
       </ContactBox>
       <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-        <BiMailSend size={36} style={{ color: theme.colors.accentColor }} />
+        <GrMail size={36} style={{ color: theme.colors.accentColor }} />
         <a
           href={`mailto:${t('info.email')}`}
           style={{
-            color: theme.colors.accentColor,
+            color: theme.colors.lightGrey,
             fontSize: '0.8rem',
           }}
         >
