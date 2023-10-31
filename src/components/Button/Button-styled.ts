@@ -121,7 +121,6 @@ const getVariantStyles = (
         border-color: ${theme.colors.primaryColor};
         &:hover {
           color: ${theme.colors.secondaryColor};
-          font-weight: ${theme.typography.fontWeight.regular};
         }
       `;
   }

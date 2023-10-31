@@ -11,6 +11,35 @@
       "heroUnderTitle": "Zatrudnienie i kwalifikowana pomoc w sprawach dokumentów",
       "button": "Zobacz wolne miejsca pracy"
     },
+
+    "workPermitsArr": {
+      "title": "Zezwolenia na pracę",
+      "workPermit1": {
+        "title": "Polska",
+        "name": "Zezwolenie na pracę na 1 lub 2 lata",
+        "time": "(czas przetwarzania: 1 miesiąc)",
+        "price": "Cena: 500€"
+      },
+      "workPermit2": {
+        "title": "Polska",
+        "name": "Sezonowe zezwolenie na pracę",
+        "time": "(czas przetwarzania: 2 dni)",
+        "price": "Cena: 300€"
+      },
+      "workPermit3": {
+        "title": "Republika Czeska",
+        "name": "Zezwolenie na pracę na 90 dni",
+        "time": "(czas przetwarzania: 20 dni)",
+        "price": "Cena: 350€"
+      },
+      "workPermit4": {
+        "title": "Republika Czeska",
+        "name": "Zezwolenie na pracę na 270 dni",
+        "time": "(czas przetwarzania: 1 miesiąc)",
+        "price": "Cena: 650€"
+      }
+    },
+
     "vacancies": {
       "title": "Wakaty",
       "card_fields": {

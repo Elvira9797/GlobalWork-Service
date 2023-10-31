@@ -53,6 +53,15 @@ export const DocsItemPrice = styled.p`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  &::before {
+  content: '';
+  display: block;
+  background-color: ${({ theme }) => theme.colors.accentColor};;
+  width: 70px;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 `;
 
 export const Bolt = styled.b`

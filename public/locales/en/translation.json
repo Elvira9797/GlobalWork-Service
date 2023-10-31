@@ -12,6 +12,34 @@
       "button": "View job vacancies"
     },
 
+    "workPermitsArr": {
+      "title": "Work permits",
+      "workPermit1": {
+        "title": "Poland",
+        "name": "Work permit for 1 or 2 years",
+        "time": "(processing time: 1 month)",
+        "price": "Price: 500€"
+      },
+      "workPermit2": {
+        "title": "Poland",
+        "name": "Seasonal work permit",
+        "time": "(processing time: 2 days)",
+        "price": "Price: 300€"
+      },
+      "workPermit3": {
+        "title": "Czech Republic",
+        "name": "Work permit for 90 days",
+        "time": "(processing time: 20 days)",
+        "price": "Price: 350€"
+      },
+      "workPermit4": {
+        "title": "Czech Republic",
+        "name": "Work permit for 270 days",
+        "time": "(processing time: 1 month)",
+        "price": "Price: 650€"
+      }
+    },
+
     "vacancies": {
       "title": "Vacancies",
       "card_fields": {
