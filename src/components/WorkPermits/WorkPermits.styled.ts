@@ -14,6 +14,7 @@ export const DocsList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  cursor: pointer;
 `;
 
 export const DocsItems = styled.li`
@@ -26,6 +27,9 @@ export const DocsItems = styled.li`
   height: auto;
   color: var(--second-title-color);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media (min-width: 768px) {
     width: calc((100% - 30px) / 2);

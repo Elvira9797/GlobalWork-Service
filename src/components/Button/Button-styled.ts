@@ -86,7 +86,7 @@ const getVariantStyles = (
     case 'form':
       return css`
         background-color: ${theme.colors.accentColor};
-        padding: 0.6rem 4rem;
+        padding: 0.8rem 4rem;
         border-radius: 0.5rem;
         font-weight: 700;
         color: ${theme.colors.secondaryColor};
@@ -119,7 +119,7 @@ const getVariantStyles = (
         background-color: ${theme.colors.accentColor};
         border-color: ${theme.colors.primaryColor};
         &:hover {
-          color: ${theme.colors.accentColor};
+          color: ${theme.colors.secondaryColor};
           font-weight: ${theme.typography.fontWeight.regular};
         }
       `;

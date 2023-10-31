@@ -4,14 +4,11 @@ import {
   ContactWraper,
   ContactsContainer,
 } from './ContactsDisplay.styled';
-
-import { FaPhone } from 'react-icons/fa';
-import { BsPhoneVibrateFill } from 'react-icons/bs';
+import { BsFillTelephoneFill } from 'react-icons/bs';
 import { BiMailSend } from 'react-icons/bi';
-
 import { theme } from '../../common/theme';
-
 import { useTranslation } from 'react-i18next';
+import SocialMediaLink from '../SocialMediaLink/SocialMediaLink';
 
 interface ContactsDisplayProps {
   displayName: 'visible' | 'none';
@@ -22,28 +19,11 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
 
   return (
     <ContactsContainer>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-        <BsPhoneVibrateFill
-          size={36}
-          style={{ color: theme.colors.accentColor }}
-        />
-        <span
-          style={{
-            color: theme.colors.lightGrey,
-            fontSize: '0.6rem',
-          }}
-        >
-          {t('info.workingTime')}
-        </span>
-      </div>
+      <SocialMediaLink />
       <ContactBox>
         <ContactWraper displayName={displayName}>
-          <ContactPhone
-            href="https://wa.me/48796387937"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaPhone />
+          <ContactPhone href="tel:+48796387937">
+            <BsFillTelephoneFill />
             {t('info.tel')}
           </ContactPhone>
         </ContactWraper>
@@ -54,7 +34,7 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
           href={`mailto:${t('info.email')}`}
           style={{
             color: theme.colors.lightGrey,
-            fontSize: '0.8rem',
+            fontSize: '1rem',
           }}
         >
           {t('info.email')}

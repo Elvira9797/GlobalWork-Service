@@ -4,7 +4,6 @@ import { useSpring, animated } from 'react-spring';
 import { NavLink, useLocation } from 'react-router-dom';
 import Button from '../Button/Button';
 import { HeroTitle, HeroUnderTitle, Overlay } from './Hero.styled';
-import SocialMediaLink from '../SocialMediaLink/SocialMediaLink';
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
@@ -38,7 +37,7 @@ const Hero: React.FC = () => {
         <HeroUnderTitle>{t('main.hero.heroUnderTitle')}</HeroUnderTitle>
       </animated.div>
       <animated.div style={buttonSpring}>
-        <Button variant="hero" type="button">
+        <Button variant="form" type="button">
           <NavLink
             style={{ color: 'inherit', textDecoration: 'none' }}
             to={'/vacancies'}
@@ -48,7 +47,6 @@ const Hero: React.FC = () => {
           </NavLink>
         </Button>
       </animated.div>
-      <SocialMediaLink />
     </Overlay>
   );
 };

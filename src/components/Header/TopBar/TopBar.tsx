@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react';
-
-import { StyledNavWrader, StyledTopBar } from './TopBar.styled';
-
-import { BiMailSend } from 'react-icons/bi';
-
+import { ContactPhone, StyledNavWraper, StyledTopBar } from './TopBar.styled';
+import { IoMdMail } from 'react-icons/io';
 import { useTranslation } from 'react-i18next';
+import { BsFillTelephoneFill } from 'react-icons/bs';
+import SocialMediaLink from '../../SocialMediaLink/SocialMediaLink';
 
 const TopBar: React.FC = () => {
   const [isTop, setIsTop] = useState(true);
@@ -27,14 +26,17 @@ const TopBar: React.FC = () => {
 
   return (
     <StyledTopBar isVisible={isTop}>
-      <StyledNavWrader>
-        <BiMailSend />
+      <StyledNavWraper>
+        <IoMdMail />
         <a href={`mailto:${t('info.email')}`}>{t('info.email')}</a>
-      </StyledNavWrader>
-      <p>
-        {t('info.workHoursTitle')}
-        {t('info.workingTime')}
-      </p>
+      </StyledNavWraper>
+      <div style={{ display: 'flex', gap: '8px' }}>
+        <SocialMediaLink iconSize={18} color={'rgb(116, 123, 142)'} />
+
+        <ContactPhone href="tel:+48796387937">
+          <BsFillTelephoneFill />
+        </ContactPhone>
+      </div>
     </StyledTopBar>
   );
 };

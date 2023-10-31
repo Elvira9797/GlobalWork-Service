@@ -8,7 +8,7 @@ import {
   IVacancieData,
   vacanciesImages,
 } from '../common/vacanciesArr';
-
+import { Element } from 'react-scroll';
 import ContactUs from '../components/ContactUs/ContactUs';
 import WorkPermits from '../components/WorkPermits/WorkPermits';
 
@@ -32,7 +32,9 @@ const Home = () => {
         vacanciesImages={vacanciesImages}
       />
       <WhyAjSerwis />
-      <ContactUs />
+      <Element name="contactUs" className="section">
+        <ContactUs />
+      </Element>
     </>
   );
 };

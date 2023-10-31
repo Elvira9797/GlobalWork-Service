@@ -49,13 +49,13 @@ const getFontSize = (size: LogoProps['size']) => {
 const getSizeLogo = (size: LogoProps['size']) => {
   switch (size) {
     case 'lg':
-      return { height: '4.8rem', width: '6.2rem' };
+      return { height: '3.8rem', width: '5.2rem' };
     case 'md':
       return {
         height: '2.8rem',
         width: '3.8rem',
       };
     default:
-      return { height: '4.8rem', width: '4.8rem' };
+      return { height: '3.8rem', width: '5.2rem' };
   }
 };

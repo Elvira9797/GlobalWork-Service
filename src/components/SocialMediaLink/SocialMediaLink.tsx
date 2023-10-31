@@ -5,46 +5,47 @@ import {
 } from './SocialMediaLink.styled';
 import {
   FaFacebookF,
-  FaInstagram,
+  // FaInstagram,
   FaTelegramPlane,
   FaWhatsapp,
 } from 'react-icons/fa';
 
 interface SocialMediaProps {
   iconSize?: number;
+  color?: string;
+  style?: {};
 }
 
-const SocialMediaLink: React.FC<SocialMediaProps> = ({ iconSize = 22 }) => {
+const SocialMediaLink: React.FC<SocialMediaProps> = ({
+  iconSize = 22,
+  color = 'white',
+}) => {
   return (
     <SocialList>
       <SocialListItem>
         <SocialLink
-          href="https://www.facebook.com/Vasyl.moiseiko"
+          href="https://www.facebook.com/profile.php?id=61551079270752"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFacebookF size={iconSize} color="white" />
+          <FaFacebookF size={iconSize} color={color} />
+        </SocialLink>
+      </SocialListItem>
+      <SocialListItem>
+        <SocialLink href="" target="_blank" rel="noopener noreferrer">
+          <FaTelegramPlane size={iconSize} color={color} />
         </SocialLink>
       </SocialListItem>
       <SocialListItem>
         <SocialLink
-          href="https://t.me/Martin0975"
+          href="https://wa.me/+48796387937"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTelegramPlane size={iconSize} color="white" />
+          <FaWhatsapp size={iconSize} color={color} />
         </SocialLink>
       </SocialListItem>
-      <SocialListItem>
-        <SocialLink
-          href="https://wa.me/+48539649808"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaWhatsapp size={iconSize} color="white" />
-        </SocialLink>
-      </SocialListItem>
-      <SocialListItem>
+      {/* <SocialListItem>
         <SocialLink
           href="https://instagram.com/aj_serwis_sp_z_o_o?igshid=MzRlODBiNWFlZA=="
           target="_blank"
@@ -52,7 +53,7 @@ const SocialMediaLink: React.FC<SocialMediaProps> = ({ iconSize = 22 }) => {
         >
           <FaInstagram size={iconSize} color="white" />
         </SocialLink>
-      </SocialListItem>
+      </SocialListItem> */}
     </SocialList>
   );
 };

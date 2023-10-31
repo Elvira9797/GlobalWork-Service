@@ -9,7 +9,7 @@ export const ContactsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 1.5rem;
   font-size: 0.7rem;
 `;
@@ -45,4 +45,5 @@ export const ContactPhone = styled.a`
   display: flex;
   align-items: center;
   gap: 3px;
+  font-size: 14px;
 `;

@@ -15,7 +15,7 @@ export const StyledTopBar = styled.div<StyledTopBarProps>`
   align-items: center;
   max-width: 1232px;
   margin: 0 auto;
-  padding: 0.1rem 2rem;
+  padding: 0.2rem 1rem;
   transition: height 0.3s, opacity 0.3s;
   height: ${props => (props.isVisible ? 'auto' : '0')};
   opacity: ${props => (props.isVisible ? 1 : 0)};
@@ -26,7 +26,7 @@ export const StyledTopBar = styled.div<StyledTopBarProps>`
   }
 `;
 
-export const StyledNavWrader = styled.div`
+export const StyledNavWraper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,4 +41,12 @@ export const StyledNavWrader = styled.div`
   a:hover {
     color: ${props => props.theme.colors.accentColor};
   }
+`;
+
+export const ContactPhone = styled.a`
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+  color: ${props => props.theme.colors.lightGrey};
 `;

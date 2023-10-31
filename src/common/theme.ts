@@ -38,7 +38,7 @@ export const theme = {
     primaryColor: '#1f1f1f',
     secondaryColor: '#ffffff',
     bgColor: '#f7f9fb',
-    lightGrey: 'rgb(130, 130, 130)',
+    lightGrey: 'rgb(116, 123, 142)',
   },
   section: {
     padding: {
