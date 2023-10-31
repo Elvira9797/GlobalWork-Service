@@ -28,13 +28,13 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
           </ContactPhone>
         </ContactWraper>
       </ContactBox>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-        <BiMailSend size={36} style={{ color: theme.colors.accentColor }} />
+      <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+        <BiMailSend size={22} style={{ color: theme.colors.lightGrey }} />
         <a
           href={`mailto:${t('info.email')}`}
           style={{
             color: theme.colors.lightGrey,
-            fontSize: '1rem',
+            fontSize: '0.8rem',
           }}
         >
           {t('info.email')}

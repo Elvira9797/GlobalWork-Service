@@ -2,7 +2,6 @@ import { useParams } from 'react-router-dom';
 import VacancyInfo from '../components/VacancyInfo/VacancyInfo';
 import { Element } from 'react-scroll';
 import VacancyOffer from '../components/VacancyOffer/VacancyOffer';
-
 import VacanciesSlider from '../components/VacanciesSlider/VacanciesSlider';
 import { useTranslation } from 'react-i18next';
 import {

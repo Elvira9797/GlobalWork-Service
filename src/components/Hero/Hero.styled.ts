@@ -10,8 +10,8 @@ export const Overlay = styled.section`
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
-  padding-top: 112px;
-  padding-bottom: 112px;
+  padding-top: 160px;
+  padding-bottom: 70px;
   background-image: linear-gradient(
       to right,
       rgba(6, 7, 7, 0.8),

@@ -26,19 +26,17 @@ export const StyledTopBar = styled.div<StyledTopBarProps>`
   }
 `;
 
-export const StyledNavWraper = styled.div`
+export const StyledNavWraper = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4px;
 
-  a {
-    text-decoration: none;
-    color: ${props => props.theme.colors.lightGrey};
-    transition: ${props => props.theme.transition.basic};
-  }
+  text-decoration: none;
+  color: ${props => props.theme.colors.lightGrey};
+  transition: ${props => props.theme.transition.basic};
 
-  a:hover {
+  &:hover {
     color: ${props => props.theme.colors.accentColor};
   }
 `;

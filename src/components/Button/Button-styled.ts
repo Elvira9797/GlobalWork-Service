@@ -116,6 +116,7 @@ const getVariantStyles = (
         display: block;
         margin: 0 auto;
         margin-bottom: 25px;
+        font-weight: 600;
         background-color: ${theme.colors.accentColor};
         border-color: ${theme.colors.primaryColor};
         &:hover {
