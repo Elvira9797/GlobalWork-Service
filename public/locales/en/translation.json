@@ -37,6 +37,18 @@
         "name": "Work permit for 270 days",
         "time": "(processing time: 1 month)",
         "price": "Price: 650€"
+      },
+      "workPermit5": {
+        "title": "Lithuania",
+        "name": "Work permit for 1 year",
+        "time": "(processing time: 2-3 weeks)",
+        "price": "Price: 800€"
+      },
+      "workPermit6": {
+        "title": "Lithuania",
+        "name": "TRC card for 1 year",
+        "time": "(processing time: 3-4 weeks)",
+        "price": "Price: 1800€"
       }
     },
 
@@ -200,7 +212,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 4 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "Umowa Zlecenie"
@@ -223,7 +235,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 4 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "Umowa Zlecenie",
@@ -245,7 +257,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 4 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "Umowa Zlecenie"
@@ -266,7 +278,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 3-4 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "Umowa Zlecenie"
@@ -293,7 +305,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 3-4 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "Umowa Zlecenie"
@@ -314,7 +326,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 4 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "Umowa Zlecenie"
@@ -341,7 +353,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 2-3 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "Umowa Zlecenie"
@@ -365,7 +377,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 4 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "The indoor temperature is not cold, +15°C",
@@ -386,7 +398,7 @@
             "Accommodation is provided for 350 PLN per month",
             "Room for 4 people",
             "Payment from the 15th to the 20th of each month",
-            "We make a residence card",
+            "We make a TRC card",
             "Free transportation to work",
             "Free work attire/clothing",
             "The indoor temperature is not cold, +15°C",

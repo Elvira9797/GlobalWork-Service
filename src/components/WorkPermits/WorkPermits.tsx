@@ -2,6 +2,7 @@ import SectionContainer from '../SectionContainer/SectionContainer';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import { ReactComponent as PolandSvg } from '../../assets/svg/poland.svg';
 import { ReactComponent as CzechSvg } from '../../assets/svg/czech.svg';
+import { ReactComponent as LithuaniaSvg } from '../../assets/svg/lithuania.svg';
 import {
   DocsItemPrice,
   DocsItemTitle,
@@ -70,6 +71,7 @@ const WorkPermits: React.FC = () => {
                 {t('main.workPermitsArr.workPermit3.price')}
               </DocsItemPrice>
             </DocsItems>
+
             <DocsItems>
               <CzechSvg
                 style={{ margin: '0 auto', display: 'flex' }}
@@ -83,6 +85,38 @@ const WorkPermits: React.FC = () => {
               <p> {t('main.workPermitsArr.workPermit4.time')}</p>
               <DocsItemPrice>
                 {t('main.workPermitsArr.workPermit4.price')}
+              </DocsItemPrice>
+            </DocsItems>
+
+            <DocsItems>
+              <LithuaniaSvg
+                style={{ margin: '0 auto', display: 'flex' }}
+                width={70}
+                height={70}
+              />
+              <DocsItemTitle>
+                {t('main.workPermitsArr.workPermit5.title')}
+              </DocsItemTitle>
+              <Bolt> {t('main.workPermitsArr.workPermit5.name')}</Bolt>
+              <p> {t('main.workPermitsArr.workPermit5.time')}</p>
+              <DocsItemPrice>
+                {t('main.workPermitsArr.workPermit5.price')}
+              </DocsItemPrice>
+            </DocsItems>
+
+            <DocsItems>
+              <LithuaniaSvg
+                style={{ margin: '0 auto', display: 'flex' }}
+                width={70}
+                height={70}
+              />
+              <DocsItemTitle>
+                {t('main.workPermitsArr.workPermit6.title')}
+              </DocsItemTitle>
+              <Bolt> {t('main.workPermitsArr.workPermit6.name')}</Bolt>
+              <p> {t('main.workPermitsArr.workPermit6.time')}</p>
+              <DocsItemPrice>
+                {t('main.workPermitsArr.workPermit6.price')}
               </DocsItemPrice>
             </DocsItems>
           </DocsList>
