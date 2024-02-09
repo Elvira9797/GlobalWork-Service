@@ -37,6 +37,10 @@ export const ContactWraper = styled.li<ContactsDisplayProps>`
 export const ContactBox = styled.ul`
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 910px) {
+    margin: 0 auto;
+  }
 `;
 
 export const ContactPhone = styled.a`
@@ -44,4 +48,15 @@ export const ContactPhone = styled.a`
   align-items: center;
   gap: 3px;
   font-size: 14px;
+`;
+
+export const AddressPhone = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+
+  @media (max-width: 910px) {
+    align-items: center;
+  }
 `;

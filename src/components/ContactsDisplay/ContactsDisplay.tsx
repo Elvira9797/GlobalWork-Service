@@ -1,4 +1,5 @@
 import {
+  AddressPhone,
   ContactBox,
   ContactPhone,
   ContactWraper,
@@ -27,14 +28,7 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
           </ContactPhone>
         </ContactWraper>
       </ContactBox>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'start',
-          gap: '1rem',
-        }}
-      >
+      <AddressPhone>
         <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
           <BiMailSend size={22} style={{ color: theme.colors.lightGrey }} />
           <a
@@ -58,7 +52,7 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
             Korunni 1208/74, 101 00, Praha 10 - Vinohrady
           </p>
         </div>
-      </div>
+      </AddressPhone>
     </ContactsContainer>
   );
 };
