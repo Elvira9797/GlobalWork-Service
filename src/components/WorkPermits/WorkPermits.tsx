@@ -95,22 +95,6 @@ const WorkPermits: React.FC = () => {
                 height={70}
               />
               <DocsItemTitle>
-                {t('main.workPermitsArr.workPermit5.title')}
-              </DocsItemTitle>
-              <Bolt> {t('main.workPermitsArr.workPermit5.name')}</Bolt>
-              <p> {t('main.workPermitsArr.workPermit5.time')}</p>
-              <DocsItemPrice>
-                {t('main.workPermitsArr.workPermit5.price')}
-              </DocsItemPrice>
-            </DocsItems>
-
-            <DocsItems>
-              <LithuaniaSvg
-                style={{ margin: '0 auto', display: 'flex' }}
-                width={70}
-                height={70}
-              />
-              <DocsItemTitle>
                 {t('main.workPermitsArr.workPermit6.title')}
               </DocsItemTitle>
               <Bolt> {t('main.workPermitsArr.workPermit6.name')}</Bolt>

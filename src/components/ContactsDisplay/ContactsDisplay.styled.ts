@@ -9,8 +9,8 @@ export const ContactsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
+  align-items: start;
+  gap: 1rem;
   font-size: 0.7rem;
 `;
 
@@ -27,7 +27,6 @@ export const ContactWraper = styled.li<ContactsDisplayProps>`
   a {
     color: ${props => props.theme.colors.lightGrey};
     transition: ${props => props.theme.transition.basic};
-    margin-bottom: 6px;
   }
 
   a:hover {
@@ -38,7 +37,6 @@ export const ContactWraper = styled.li<ContactsDisplayProps>`
 export const ContactBox = styled.ul`
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
 `;
 
 export const ContactPhone = styled.a`
