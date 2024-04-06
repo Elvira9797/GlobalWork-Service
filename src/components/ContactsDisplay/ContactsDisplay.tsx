@@ -46,7 +46,6 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
           <p
             style={{
               color: theme.colors.lightGrey,
-              fontSize: '0.8rem',
             }}
           >
             Korunni 1208/74, 101 00, Praha 10 - Vinohrady
