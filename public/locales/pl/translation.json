@@ -43,6 +43,12 @@
         "name": "Karta pobytu na 2 lata",
         "time": "(czas przetwarzania: 7-10 dni)",
         "price": "Cena: 1300€"
+      },
+      "workPermit7": {
+        "title": "Serbia",
+        "name": "Zezwolenie na pracę na 180 dni",
+        "time": "(czas przetwarzania: 14 dni)",
+        "price": "Cena: 1300€"
       }
     },
 
