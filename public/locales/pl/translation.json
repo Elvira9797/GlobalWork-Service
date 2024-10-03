@@ -47,8 +47,14 @@
       "workPermit7": {
         "title": "Serbia",
         "name": "Zezwolenie na pracę na 180 dni",
-        "time": "(czas przetwarzania: 14 dni)",
+        "time": "(czas przetwarzania: 2-3 tygodnie)",
         "price": "Cena: 1300€"
+      },
+      "workPermit8": {
+        "title": "Albania",
+        "name": "E-wiza na 90 dni",
+        "time": "(czas przetwarzania: 2-3 tygodnie)",
+        "price": "Cena: 1400€"
       }
     },
 

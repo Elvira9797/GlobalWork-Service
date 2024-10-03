@@ -47,8 +47,14 @@
       "workPermit7": {
         "title": "Serbia",
         "name": "Work permit for 180 days",
-        "time": "(processing time: 14 days)",
+        "time": "(processing time: 2-3 weeks)",
         "price": "Price: 1300€"
+      },
+      "workPermit8": {
+        "title": "Albania",
+        "name": "e-Visa for 90 days",
+        "time": "(processing time: 2-3 weeks)",
+        "price": "Price: 1400€"
       }
     },
 
