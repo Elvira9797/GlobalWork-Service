@@ -35,7 +35,7 @@ const TopBar: React.FC = () => {
       <div style={{ display: 'flex', gap: '8px' }}>
         <SocialMediaLink iconSize={18} color={'rgb(116, 123, 142)'} />
 
-        <ContactPhone href="tel:+48796387937">
+        <ContactPhone href="tel:+420607425330">
           <BsFillTelephoneFill />
         </ContactPhone>
       </div>

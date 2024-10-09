@@ -22,7 +22,7 @@ const ContactsDisplay: React.FC<ContactsDisplayProps> = ({ displayName }) => {
     <ContactsContainer>
       <ContactBox>
         <ContactWraper displayName={displayName}>
-          <ContactPhone href="tel:+48796387937">
+          <ContactPhone href="tel:+420607425330">
             <BsFillTelephoneFill />
             {t('info.tel')}
           </ContactPhone>
