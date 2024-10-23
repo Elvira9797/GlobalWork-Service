@@ -30,6 +30,7 @@ export const DocsItems = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   @media (min-width: 768px) {
     width: calc((100% - 30px) / 2);
@@ -37,6 +38,9 @@ export const DocsItems = styled.li`
 
   @media (min-width: 1236px) {
     width: calc((100% - 90px) / 4);
+    &:hover {
+      transform: scale(1.05); /* Збільшення картки при наведенні */
+    }
   }
 `;
 

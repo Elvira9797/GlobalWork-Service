@@ -55,6 +55,12 @@
         "name": "E-wiza na 90 dni",
         "time": "(czas przetwarzania: 2-3 tygodnie)",
         "price": "Cena: 1400€"
+      },
+      "workPermit9": {
+        "title": "Węgry",
+        "name": "Zezwolenie na pracę na 1-3 miesiące",
+        "time": "(czas przetwarzania: 2-3 tygodnie)",
+        "price": "Cena: 800€"
       }
     },
 

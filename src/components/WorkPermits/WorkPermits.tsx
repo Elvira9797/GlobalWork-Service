@@ -5,6 +5,7 @@ import { ReactComponent as CzechSvg } from '../../assets/svg/czech.svg';
 import { ReactComponent as LithuaniaSvg } from '../../assets/svg/lithuania.svg';
 import { ReactComponent as SerbiaSvg } from '../../assets/svg/Serbia.svg';
 import { ReactComponent as AlbaniaSvg } from '../../assets/svg/Albania.svg';
+import { ReactComponent as HungarySvg } from '../../assets/svg/Hungary.svg';
 import {
   DocsItemPrice,
   DocsItemTitle,
@@ -133,6 +134,21 @@ const WorkPermits: React.FC = () => {
               <p> {t('main.workPermitsArr.workPermit8.time')}</p>
               <DocsItemPrice>
                 {t('main.workPermitsArr.workPermit8.price')}
+              </DocsItemPrice>
+            </DocsItems>
+            <DocsItems>
+              <HungarySvg
+                style={{ margin: '0 auto', display: 'flex' }}
+                width={70}
+                height={70}
+              />
+              <DocsItemTitle>
+                {t('main.workPermitsArr.workPermit9.title')}
+              </DocsItemTitle>
+              <Bolt> {t('main.workPermitsArr.workPermit9.name')}</Bolt>
+              <p> {t('main.workPermitsArr.workPermit9.time')}</p>
+              <DocsItemPrice>
+                {t('main.workPermitsArr.workPermit9.price')}
               </DocsItemPrice>
             </DocsItems>
           </DocsList>

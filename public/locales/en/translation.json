@@ -55,6 +55,12 @@
         "name": "e-Visa for 90 days",
         "time": "(processing time: 2-3 weeks)",
         "price": "Price: 1400€"
+      },
+      "workPermit9": {
+        "title": "Hungary",
+        "name": "Work permit for 1-3 months",
+        "time": "(processing time: 2-3 weeks)",
+        "price": "Price: 800€"
       }
     },
 
