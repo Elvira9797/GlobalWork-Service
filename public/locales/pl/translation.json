@@ -48,7 +48,7 @@
         "title": "Serbia",
         "name": "Zezwolenie na pracę na 180 dni",
         "time": "(czas przetwarzania: 2-3 tygodnie)",
-        "price": "Cena: 1300€"
+        "price": "Cena: 1100€"
       },
       "workPermit8": {
         "title": "Albania",
@@ -61,6 +61,12 @@
         "name": "Zezwolenie na pracę na 2 lata",
         "time": "(czas przetwarzania: 2-3 tygodnie)",
         "price": "Cena: 800€"
+      },
+      "workPermit10": {
+        "title": "Chorwacja",
+        "name": "Sezonowe zezwolenie na pracę",
+        "time": "(czas przetwarzania: ~1,5 miesiąca)",
+        "price": "Cena: 1500€"
       }
     },
 
