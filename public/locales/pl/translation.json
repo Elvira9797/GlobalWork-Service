@@ -64,15 +64,33 @@
       },
       "workPermit9": {
         "title": "Węgry",
-        "name": "Zezwolenie na pracę na 2 lata",
-        "time": "(czas przetwarzania: 2-3 tygodnie)",
-        "price": "Cena: 800€"
+        "name": "Sezonowe zezwolenie na pracę na 6 miesiąca",
+        "time": "(czas przetwarzania: ~ 10 dni)",
+        "price": "Cena: 700€"
       },
       "workPermit10": {
         "title": "Chorwacja",
         "name": "Sezonowe zezwolenie na pracę",
-        "time": "(czas przetwarzania: ~1,5 miesiąca)",
-        "price": "Cena: 1500€"
+        "time": "(czas przetwarzania: ~2 miesiąca)",
+        "price": "Cena: 1400€"
+      },
+      "workPermit11": {
+        "title": "Chorwacja",
+        "name": "Dokumenty do wizy wjazdowej na 90 dni + TRP",
+        "time": "(czas przetwarzania: 2-3 miesiąca)",
+        "price": "Cena: 1300€"
+      },
+      "workPermit12": {
+        "title": "Słowenia",
+        "name": "Zezwolenie na pracę na 1 rok",
+        "time": "(czas przetwarzania: ~2 miesiąca)",
+        "price": "Cena: 1100€"
+      },
+      "workPermit13": {
+        "title": "Czarnogóra",
+        "name": "Zezwolenie na pracę na 6 miesiący",
+        "time": "(czas przetwarzania: ~2 miesiąca)",
+        "price": "Cena: 1400€"
       }
     },
 

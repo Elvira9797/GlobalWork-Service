@@ -64,15 +64,33 @@
       },
       "workPermit9": {
         "title": "Hungary",
-        "name": "Work permit for 2 years",
-        "time": "(processing time: 2-3 weeks)",
-        "price": "Price: 800€"
+        "name": "Seasonal work permit for 6 months",
+        "time": "(processing time: ~10 days)",
+        "price": "Price: 700€"
       },
       "workPermit10": {
         "title": "Croatia",
         "name": "Seasonal work permit",
-        "time": "(processing time: ~1,5 months)",
-        "price": "Price: 1500€"
+        "time": "(processing time: ~2 months)",
+        "price": "Price: 1400€"
+      },
+      "workPermit11": {
+        "title": "Croatia",
+        "name": "Documents for entry visa for 90 days + TRP",
+        "time": "(processing time: 2-3 months)",
+        "price": "Price: 1300€"
+      },
+      "workPermit12": {
+        "title": "Slovenia",
+        "name": "Work permit for 1 year",
+        "time": "(processing time: ~60 days)",
+        "price": "Price: 1100€"
+      },
+      "workPermit13": {
+        "title": "Montenegro",
+        "name": "Work permit for 6 months",
+        "time": "(processing time: ~2 months)",
+        "price": "Price: 1400€"
       }
     },
 
